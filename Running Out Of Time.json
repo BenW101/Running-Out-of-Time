@@ -1169,7 +1169,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run1.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run1.png",
         "smoothed": false,
         "userAdded": false
@@ -1178,7 +1178,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run2.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run2.png",
         "smoothed": false,
         "userAdded": true
@@ -1214,7 +1214,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run6.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run6.png",
         "smoothed": false,
         "userAdded": true
@@ -1223,7 +1223,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run7.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run7.png",
         "smoothed": false,
         "userAdded": true
@@ -1232,7 +1232,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run8.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run8.png",
         "smoothed": false,
         "userAdded": true
@@ -1241,7 +1241,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run9.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run9.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run9.png",
         "smoothed": false,
         "userAdded": true
@@ -1250,7 +1250,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run10.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run10.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run10.png",
         "smoothed": false,
         "userAdded": false
@@ -1259,7 +1259,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run11.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run11.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run11.png",
         "smoothed": false,
         "userAdded": false
@@ -1268,7 +1268,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Run/Run12.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Run/Run12.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Run\\Run12.png",
         "smoothed": false,
         "userAdded": false
@@ -1438,7 +1438,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1455,7 +1474,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1472,7 +1510,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1489,7 +1546,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1506,7 +1582,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1523,7 +1618,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1540,7 +1654,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1557,7 +1690,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1574,7 +1726,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1591,7 +1762,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1621,7 +1811,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 22,
+                        "y": 38
+                      },
+                      {
+                        "x": 22,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1638,7 +1847,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 22,
+                        "y": 38
+                      },
+                      {
+                        "x": 22,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1655,7 +1883,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 38
+                      },
+                      {
+                        "x": 22,
+                        "y": 38
+                      },
+                      {
+                        "x": 22,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1685,7 +1932,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1702,7 +1968,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1719,7 +2004,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1749,7 +2053,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1766,58 +2089,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Run\\Run3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Run\\Run4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Run\\Run5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1834,7 +2125,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1851,7 +2161,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1868,7 +2197,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1885,7 +2233,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1902,7 +2269,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1919,7 +2305,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -1936,7 +2341,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 25,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 }
               ]
             }
