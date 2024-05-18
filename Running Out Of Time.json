@@ -1702,6 +1702,78 @@
         "name": "assets\\Door\\Key_open.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door/Door_opening/Door_opening8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door\\Door_opening\\Door_opening8.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3332,7 +3404,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -3381,12 +3453,312 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Door\\Door_closed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opening",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 140.5,
+                    "y": 233
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 0
+                      },
+                      {
+                        "x": 280,
+                        "y": 464
+                      },
+                      {
+                        "x": 0,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Door\\Door_opening\\Door_opening8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8342,8 +8714,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 91,
-          "y": 533,
+          "x": 295,
+          "y": 35,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -8588,7 +8960,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 517,
+          "height": 574,
           "keepRatio": true,
           "layer": "",
           "name": "WallR",
@@ -8611,8 +8983,8 @@
           "name": "Floor",
           "persistentUuid": "522bda02-3788-4558-b49b-db21f876144e",
           "width": 193,
-          "x": 780,
-          "y": 620,
+          "x": 767,
+          "y": 624,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -10677,7 +11049,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20877052598407578,
+        "zoomFactor": 0.32129867458583977,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12202,7 +12574,7 @@
                         "Door",
                         "Animation",
                         "=",
-                        "\"Open\""
+                        "\"Opening\""
                       ]
                     }
                   ]
@@ -12212,6 +12584,33 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Door",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Door",
+                "Animation",
+                "=",
+                "\"Open\""
+              ]
+            }
+          ]
         }
       ]
     },
