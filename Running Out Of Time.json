@@ -1142,7 +1142,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Fall/Fall.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Fall/Fall.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Fall\\Fall.png",
         "smoothed": false,
         "userAdded": false
@@ -1151,7 +1151,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Fall/Fall2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Fall/Fall2.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Fall\\Fall2.png",
         "smoothed": false,
         "userAdded": true
@@ -1160,7 +1160,7 @@
         "alwaysLoaded": false,
         "file": "assets/Player/Fall/Fall3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Player/Fall/Fall3.png\",\"extension\":\".png\"}",
         "name": "assets\\Player\\Fall\\Fall3.png",
         "smoothed": false,
         "userAdded": true
@@ -1774,6 +1774,276 @@
         "name": "assets\\Door\\Door_opening\\Door_opening8.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide6.png\"}",
+        "name": "Wallslide6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide7.png\"}",
+        "name": "Wallslide7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide8.png\"}",
+        "name": "Wallslide8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide9.png\"}",
+        "name": "Wallslide9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide10.png\"}",
+        "name": "Wallslide10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide11.png\"}",
+        "name": "Wallslide11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide12.png\"}",
+        "name": "Wallslide12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide13.png\"}",
+        "name": "Wallslide13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide14.png\"}",
+        "name": "Wallslide14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide15.png\"}",
+        "name": "Wallslide15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wallslide25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide26.png\"}",
+        "name": "Wallslide26",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide27.png\"}",
+        "name": "Wallslide27",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide28.png\"}",
+        "name": "Wallslide28",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide29.png\"}",
+        "name": "Wallslide29",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide30.png\"}",
+        "name": "Wallslide30",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1785,18 +2055,25 @@
       "name": "playerCharacter",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsWallJumping",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 850,
+          "maxFallingSpeed": 1400,
           "deceleration": 2000,
           "acceleration": 1500,
           "jumpSpeed": 500,
           "jumpSustainTime": 0.4,
-          "maxFallingSpeed": 1400,
           "maxSpeed": 450,
           "canGoDownFromJumpthru": false,
           "canGrabWithoutMoving": false,
@@ -1825,14 +2102,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -1861,14 +2138,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -1897,14 +2174,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -1933,14 +2210,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -1969,14 +2246,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2005,14 +2282,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2041,14 +2318,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2077,14 +2354,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2113,14 +2390,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2149,14 +2426,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 13,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2198,14 +2475,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 14,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 14,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2234,14 +2511,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 14,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 14,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2270,14 +2547,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 14,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 14,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2319,14 +2596,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2355,14 +2632,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2391,14 +2668,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2440,14 +2717,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2476,14 +2753,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2512,14 +2789,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 17,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2548,14 +2825,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2584,14 +2861,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2620,14 +2897,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2656,14 +2933,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2692,14 +2969,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2728,14 +3005,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 18,
+                    "y": 13
                   },
                   "customCollisionMask": [
                     [
@@ -2768,92 +3045,188 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Wallslide\\Wallslide1.png",
+                  "image": "Wallslide26",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 49
+                      },
+                      {
+                        "x": 0,
+                        "y": 49
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Wallslide\\Wallslide2.png",
+                  "image": "Wallslide27",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 49
+                      },
+                      {
+                        "x": 0,
+                        "y": 49
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Wallslide\\Wallslide3.png",
+                  "image": "Wallslide28",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 49
+                      },
+                      {
+                        "x": 0,
+                        "y": 49
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Wallslide\\Wallslide4.png",
+                  "image": "Wallslide29",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 49
+                      },
+                      {
+                        "x": 0,
+                        "y": 49
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player\\Wallslide\\Wallslide5.png",
+                  "image": "Wallslide30",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 22
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 49
+                      },
+                      {
+                        "x": 0,
+                        "y": 49
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3800,7 +4173,7 @@
     },
     {
       "assetStoreId": "",
-      "height": 64,
+      "height": 32,
       "name": "Floor",
       "texture": "assets\\Tiles\\Floor.png",
       "type": "TiledSpriteObject::TiledSprite",
@@ -3930,8 +4303,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Tiles\\Moving_platform.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Tiles\\Moving_Tile.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3944,26 +4317,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 67
-                      },
-                      {
-                        "x": 0,
-                        "y": 67
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -3980,7 +4334,15 @@
       "width": 64,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -3991,7 +4353,15 @@
       "width": 64,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -4295,6 +4665,126 @@
     {
       "folded": true,
       "name": "Lvl5PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl6PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl6PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl7PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl7PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl8PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl8PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl9PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl9PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl10PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl10PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl11PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl11PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl12PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl12PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl13PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl13PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl14PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl14PlayY",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl15PlayX",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Lvl15PlayY",
       "type": "array",
       "children": []
     }
@@ -4623,16 +5113,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "GhostSprite",
-                "Flippable",
-                "yes"
-              ]
-            },
             {
               "type": {
                 "value": "PlaySound"
@@ -6223,7 +6703,7 @@
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
           "x": 166,
-          "y": 488,
+          "y": 471,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -6239,8 +6719,8 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 172,
-          "y": 180,
+          "x": 170,
+          "y": 220,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6304,8 +6784,8 @@
           "name": "Floor",
           "persistentUuid": "d636946a-e7b8-4713-82a9-d1c2dfaea980",
           "width": 574,
-          "x": 4,
-          "y": 237,
+          "x": 2,
+          "y": 277,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -6338,7 +6818,7 @@
           "persistentUuid": "5e5bca04-ad24-4b31-b214-8f6a5ad84348",
           "width": 256,
           "x": 798,
-          "y": 329,
+          "y": 350,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -6729,8 +7209,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": -110,
-          "y": 88,
+          "x": -93,
+          "y": 495,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -6828,7 +7308,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "\"Level 6\"",
                 ""
               ]
             }
@@ -7261,7 +7741,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "\"Level 7\"",
                 ""
               ]
             }
@@ -7752,7 +8232,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "\"Level 8\"",
                 ""
               ]
             }
@@ -7937,8 +8417,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level8",
-      "name": "Level8",
+      "mangledName": "Level_328",
+      "name": "Level 8",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": false,
@@ -8069,7 +8549,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 33,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -8103,8 +8583,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "keepRatio": true,
+          "height": 32,
           "layer": "",
           "name": "Floor",
           "persistentUuid": "5b974cb2-e92a-46ec-a5dc-951a6ed56c2a",
@@ -8120,8 +8599,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "keepRatio": true,
+          "height": 32,
           "layer": "",
           "name": "Floor",
           "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
@@ -8370,8 +8848,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level_328",
-      "name": "Level 8",
+      "mangledName": "Level_329",
+      "name": "Level 9",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -8482,106 +8960,6 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level_329",
-      "name": "Level 9",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {},
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT"
-      },
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
       "mangledName": "Level_3210",
       "name": "Level 10",
       "r": 209,
@@ -8589,7 +8967,19 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -11049,7 +11439,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32129867458583977,
+        "zoomFactor": 0.2722034630261617,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11937,66 +12327,35 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Animations",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
+                        "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Left\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Right\""
+                        "IsWallJumping",
+                        "False"
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Animation",
-                        "=",
-                        "\"Idle\""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
                             "playerCharacter",
@@ -12004,31 +12363,101 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
                         {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "Animation",
-                            "=",
-                            "\"Walk\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CurrentJumpSpeed"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                ">",
+                                "playerCharacter.PlatformerObject::CurrentFallSpeed()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"Jump\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CurrentFallSpeed"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                ">",
+                                "playerCharacter.PlatformerObject::JumpSpeed()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"Fall\""
+                              ]
+                            }
                           ]
                         }
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
                             "playerCharacter",
                             "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "\"Right\""
                           ]
                         }
                       ],
@@ -12044,52 +12473,61 @@
                             "\"Idle\""
                           ]
                         }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::CurrentJumpSpeed"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            ">",
-                            "playerCharacter.PlatformerObject::CurrentFallSpeed()"
-                          ]
-                        }
                       ],
-                      "actions": [
+                      "events": [
                         {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "Animation",
-                            "=",
-                            "\"Jump\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"Walk\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"Idle\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -12099,192 +12537,182 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::CurrentFallSpeed"
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "IsWallJumping",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "a"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateControl"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                "\"Left\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "d"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SimulateControl"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                "\"Right\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                           },
                           "parameters": [
                             "playerCharacter",
                             "PlatformerObject",
-                            ">",
-                            "playerCharacter.PlatformerObject::JumpSpeed()"
+                            "\"Left\""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
                           },
                           "parameters": [
                             "playerCharacter",
-                            "Animation",
-                            "=",
-                            "\"Fall\""
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"Run\""
+                              ]
+                            }
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "a"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Left\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "d"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Right\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Left\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Flippable",
-                        "yes"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                           },
                           "parameters": [
                             "playerCharacter",
-                            "PlatformerObject"
+                            "PlatformerObject",
+                            "\"Right\""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
                           },
                           "parameters": [
                             "playerCharacter",
-                            "Animation",
-                            "=",
-                            "\"Run\""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Right\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Flippable",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject"
+                            "Flippable",
+                            ""
                           ]
                         }
                       ],
-                      "actions": [
+                      "events": [
                         {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "Animation",
-                            "=",
-                            "\"Run\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"Run\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -12299,6 +12727,398 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "name": "Wall Jumping",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "WallL",
+                        "75",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "a"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "IsWallJumping",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "Animation",
+                            "=",
+                            "\"Wallslide\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "playerCharacter"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "WallR",
+                        "75",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "d"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Right"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "IsWallJumping",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "Animation",
+                            "=",
+                            "\"Wallslide\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "playerCharacter"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "IsWallJumping",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "IsWallJumping",
+                        "="
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateControl"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "\"Jump\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "IsWallJumping",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxFallingSpeed"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "=",
+                        "300",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "IsWallJumping",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxFallingSpeed"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "=",
+                        "1400",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
               "name": "Collisions",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12648,6 +13468,103 @@
       ]
     },
     {
+      "associatedLayout": "Level 2",
+      "lastChangeTimeStamp": 0,
+      "name": "Base Echo",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Echo",
+                "<",
+                "GlobalVariableFirstNumber(Lvl1PlayX)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Echo",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Echo",
+                ">",
+                "GlobalVariableFirstNumber(Lvl1PlayX)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Echo",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "Echo",
+                "Opacity",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Echo"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Echo",
+                "=",
+                "-500"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "associatedLayout": "Level 1",
       "lastChangeTimeStamp": 0,
       "name": "Echo Level 1",
@@ -12671,7 +13588,23 @@
               },
               "parameters": [
                 "Ghost",
-                "\"Lvl1RecordMovementTimer\""
+                "\"EchoTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableClearChildren"
+              },
+              "parameters": [
+                "Lvl1PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableClearChildren"
+              },
+              "parameters": [
+                "Lvl1PlayY"
               ]
             }
           ]
@@ -12685,7 +13618,7 @@
               },
               "parameters": [
                 "",
-                "\"Lvl1RecordMovementTimer\"",
+                "\"EchoTimer\"",
                 ">=",
                 "0.01"
               ]
@@ -12716,7 +13649,7 @@
               },
               "parameters": [
                 "",
-                "\"Lvl1RecordMovementTimer\""
+                "\"EchoTimer\""
               ]
             }
           ]
@@ -12729,6 +13662,13 @@
       "name": "Echo Level 2",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Base Echo"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12747,148 +13687,23 @@
               },
               "parameters": [
                 "Ghost",
-                "\"Lvl2GhostTimer\""
+                "\"EchoTimer\""
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Ghost",
-                "\"Lvl2RecordMovementTimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl2GhostTimer\"",
-                ">=",
-                "0.01"
+                "Lvl2PlayY"
               ]
             },
             {
               "type": {
-                "value": "GlobalVariableChildCount"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl1PlayX",
-                ">",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Echo",
-                "GlobalVariableFirstNumber(Lvl1PlayX)",
-                "GlobalVariableFirstNumber(Lvl1PlayY)",
-                "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl1PlayX), GlobalVariableFirstNumber(Lvl1PlayY))",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl1PlayX",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl1PlayY",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl2GhostTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "<",
-                    "GlobalVariableFirstNumber(Lvl1PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    ">",
-                    "GlobalVariableFirstNumber(Lvl1PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "no"
-                  ]
-                }
+                "Lvl2PlayX"
               ]
             }
           ]
@@ -12926,62 +13741,11 @@
           "conditions": [
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::Value"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Echo",
-                "=",
-                "-500"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
                 "",
-                "\"Lvl2RecordMovementTimer\"",
+                "\"EchoTimer\"",
                 ">=",
                 "0.01"
               ]
@@ -13012,7 +13776,64 @@
               },
               "parameters": [
                 "",
-                "\"Lvl2RecordMovementTimer\""
+                "\"EchoTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableChildCount"
+                  },
+                  "parameters": [
+                    "Lvl1PlayX",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Echo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "Echo",
+                    "GlobalVariableFirstNumber(Lvl1PlayX)",
+                    "GlobalVariableFirstNumber(Lvl1PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl1PlayX), GlobalVariableFirstNumber(Lvl1PlayY))",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl1PlayX",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl1PlayY",
+                    "0"
+                  ]
+                }
               ]
             }
           ]
@@ -13025,6 +13846,13 @@
       "name": "Echo Level 3",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Base Echo"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13043,148 +13871,23 @@
               },
               "parameters": [
                 "Ghost",
-                "\"Lvl3GhostTimer\""
+                "\"EchoTimer\""
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Ghost",
-                "\"Lvl3RecordMovementTimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl3GhostTimer\"",
-                ">=",
-                "0.01"
+                "Lvl3PlayX"
               ]
             },
             {
               "type": {
-                "value": "GlobalVariableChildCount"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl2PlayX",
-                ">",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Echo",
-                "GlobalVariableFirstNumber(Lvl2PlayX)",
-                "GlobalVariableFirstNumber(Lvl2PlayY)",
-                "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl2PlayX), GlobalVariableFirstNumber(Lvl2PlayY))",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl2PlayX",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl2PlayY",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl3GhostTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "<",
-                    "GlobalVariableFirstNumber(Lvl2PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    ">",
-                    "GlobalVariableFirstNumber(Lvl2PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "no"
-                  ]
-                }
+                "Lvl3PlayY"
               ]
             }
           ]
@@ -13222,48 +13925,11 @@
           "conditions": [
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::Value"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Echo",
-                "=",
-                "-500"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
                 "",
-                "\"Lvl3RecordMovementTimer\"",
+                "\"EchoTimer\"",
                 ">=",
                 "0.01"
               ]
@@ -13294,7 +13960,64 @@
               },
               "parameters": [
                 "",
-                "\"Lvl3RecordMovementTimer\""
+                "\"EchoTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableChildCount"
+                  },
+                  "parameters": [
+                    "Lvl2PlayX",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Echo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "Echo",
+                    "GlobalVariableFirstNumber(Lvl2PlayX)",
+                    "GlobalVariableFirstNumber(Lvl2PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl2PlayX), GlobalVariableFirstNumber(Lvl2PlayY))",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl2PlayX",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl2PlayY",
+                    "0"
+                  ]
+                }
               ]
             }
           ]
@@ -13307,6 +14030,13 @@
       "name": "Echo Level 4",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Base Echo"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13325,148 +14055,23 @@
               },
               "parameters": [
                 "Ghost",
-                "\"Lvl4GhostTimer\""
+                "\"EchoTimer\""
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Ghost",
-                "\"Lvl4RecordMovementTimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl4GhostTimer\"",
-                ">=",
-                "0.01"
+                "Lvl4PlayX"
               ]
             },
             {
               "type": {
-                "value": "GlobalVariableChildCount"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl3PlayX",
-                ">",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Echo",
-                "GlobalVariableFirstNumber(Lvl3PlayX)",
-                "GlobalVariableFirstNumber(Lvl3PlayY)",
-                "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl3PlayX), GlobalVariableFirstNumber(Lvl3PlayY))",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl3PlayX",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl3PlayY",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl4GhostTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "<",
-                    "GlobalVariableFirstNumber(Lvl3PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    ">",
-                    "GlobalVariableFirstNumber(Lvl3PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "no"
-                  ]
-                }
+                "Lvl4PlayY"
               ]
             }
           ]
@@ -13504,48 +14109,11 @@
           "conditions": [
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::Value"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Echo",
-                "=",
-                "-500"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
                 "",
-                "\"Lvl4RecordMovementTimer\"",
+                "\"EchoTimer\"",
                 ">=",
                 "0.01"
               ]
@@ -13576,7 +14144,64 @@
               },
               "parameters": [
                 "",
-                "\"Lvl4RecordMovementTimer\""
+                "\"EchoTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableChildCount"
+                  },
+                  "parameters": [
+                    "Lvl3PlayX",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Echo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "Echo",
+                    "GlobalVariableFirstNumber(Lvl3PlayX)",
+                    "GlobalVariableFirstNumber(Lvl3PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl3PlayX), GlobalVariableFirstNumber(Lvl3PlayY))",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl3PlayX",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl3PlayY",
+                    "0"
+                  ]
+                }
               ]
             }
           ]
@@ -13588,6 +14213,13 @@
       "lastChangeTimeStamp": 0,
       "name": "Echo Level 5",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Base Echo"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -13607,148 +14239,23 @@
               },
               "parameters": [
                 "Ghost",
-                "\"Lvl5GhostTimer\""
+                "\"EchoTimer\""
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Ghost",
-                "\"Lvl5RecordMovementTimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl5GhostTimer\"",
-                ">=",
-                "0.01"
+                "Lvl5PlayX"
               ]
             },
             {
               "type": {
-                "value": "GlobalVariableChildCount"
+                "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl4PlayX",
-                ">",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Echo",
-                "GlobalVariableFirstNumber(Lvl4PlayX)",
-                "GlobalVariableFirstNumber(Lvl4PlayY)",
-                "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl4PlayX), GlobalVariableFirstNumber(Lvl4PlayY))",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl4PlayX",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableRemoveAt"
-              },
-              "parameters": [
-                "Lvl4PlayY",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Lvl5GhostTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "<",
-                    "GlobalVariableFirstNumber(Lvl4PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    ">",
-                    "GlobalVariableFirstNumber(Lvl4PlayX)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Flippable",
-                    "no"
-                  ]
-                }
+                "Lvl5PlayY"
               ]
             }
           ]
@@ -13786,48 +14293,11 @@
           "conditions": [
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::Value"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Echo"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Echo",
-                "=",
-                "-500"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "100000",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
                 "",
-                "\"Lvl5RecordMovementTimer\"",
+                "\"EchoTimer\"",
                 ">=",
                 "0.01"
               ]
@@ -13858,7 +14328,64 @@
               },
               "parameters": [
                 "",
-                "\"Lvl5RecordMovementTimer\""
+                "\"EchoTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableChildCount"
+                  },
+                  "parameters": [
+                    "Lvl4PlayX",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Echo"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "Echo",
+                    "GlobalVariableFirstNumber(Lvl4PlayX)",
+                    "GlobalVariableFirstNumber(Lvl4PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl4PlayX), GlobalVariableFirstNumber(Lvl4PlayY))",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl4PlayX",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl4PlayY",
+                    "0"
+                  ]
+                }
               ]
             }
           ]
