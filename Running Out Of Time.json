@@ -1999,6 +1999,51 @@
         "name": "Wallslide25",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide26.png\"}",
+        "name": "Wallslide26",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide27.png\"}",
+        "name": "Wallslide27",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide28.png\"}",
+        "name": "Wallslide28",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide29.png\"}",
+        "name": "Wallslide29",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wallslide30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Wallslide30.png\"}",
+        "name": "Wallslide30",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2021,10 +2066,10 @@
       "effects": [],
       "behaviors": [
         {
-          "gravity": 850,
-          "maxFallingSpeed": 1400,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 850,
+          "maxFallingSpeed": 1400,
           "deceleration": 2000,
           "acceleration": 1500,
           "jumpSpeed": 500,
@@ -3005,17 +3050,17 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide21",
+                  "image": "Wallslide26",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "customCollisionMask": [
@@ -3041,17 +3086,17 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide22",
+                  "image": "Wallslide27",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "customCollisionMask": [
@@ -3077,17 +3122,17 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide23",
+                  "image": "Wallslide28",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "customCollisionMask": [
@@ -3113,17 +3158,17 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide24",
+                  "image": "Wallslide29",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "customCollisionMask": [
@@ -3149,17 +3194,17 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide25",
+                  "image": "Wallslide30",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 12.5,
+                    "x": 12,
                     "y": 22
                   },
                   "customCollisionMask": [
@@ -4258,8 +4303,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Tiles\\Moving_platform.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Tiles\\Moving_Tile.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4272,26 +4317,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 67
-                      },
-                      {
-                        "x": 0,
-                        "y": 67
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -4310,10 +4336,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -4329,10 +4355,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -12701,7 +12727,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Wall Jumping",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12836,7 +12861,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
