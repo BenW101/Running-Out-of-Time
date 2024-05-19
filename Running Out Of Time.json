@@ -1304,7 +1304,7 @@
         "alwaysLoaded": false,
         "file": "assets/Font_Text/Tutorial_Text1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Font_Text/Tutorial_Text1.png\",\"extension\":\".png\"}",
         "name": "assets\\Font_Text\\Tutorial_Text1.png",
         "smoothed": false,
         "userAdded": false
@@ -2051,6 +2051,42 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\Tiles\\Wall_L.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Updated Sprites_Tiles_pixil-frame-0 (5)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Updated Sprites\\Tiles\\pixil-frame-0 (5)2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Updated Sprites_Tiles_pixil-frame-0 (5)3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Updated Sprites\\Tiles\\pixil-frame-0 (5)3",
         "smoothed": false,
         "userAdded": true
       }
@@ -4815,6 +4851,12 @@
       "name": "Lvl15PlayY",
       "type": "array",
       "children": []
+    },
+    {
+      "folded": true,
+      "name": "CurrentTick",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -4825,7 +4867,7 @@
       "name": "Start Menu",
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
+      "stopSoundsOnStartup": true,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -4838,7 +4880,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210173,
+        "zoomFactor": 0.41943397827590595,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5287,7 +5329,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49508400737488983,
+        "zoomFactor": 0.4057518905943834,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5302,8 +5344,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 93,
-          "y": 478,
+          "x": 91,
+          "y": 510,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -5476,6 +5518,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 163,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "406f10d8-4bde-42d4-a93b-a60c55a374a3",
+          "width": 242,
+          "x": 471,
+          "y": 66,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text4",
+          "persistentUuid": "f88df038-9077-4843-861a-84e82682bc95",
+          "width": 0,
+          "x": 499,
+          "y": 81,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5600,6 +5675,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 31
+                          },
+                          {
+                            "x": 185,
+                            "y": 31
+                          },
+                          {
+                            "x": 185,
+                            "y": 106
+                          },
+                          {
+                            "x": 3,
+                            "y": 106
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5607,6 +5743,9 @@
         "children": [
           {
             "objectName": "Text_1"
+          },
+          {
+            "objectName": "Text4"
           },
           {
             "objectName": "Text2"
@@ -5971,15 +6110,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 142.5,
+          "depth": 1,
+          "height": 188,
           "keepRatio": true,
           "layer": "",
           "name": "Text1",
           "persistentUuid": "dfb4cb53-147a-4040-8344-d15cc72969d0",
-          "width": 190,
-          "x": 558,
-          "y": 61,
+          "width": 249,
+          "x": 530,
+          "y": 35,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -6042,7 +6181,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Font_Text\\Tutorial_Text3.png",
+                      "image": "Updated Sprites\\Tiles\\pixil-frame-0 (5)3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6058,20 +6197,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 10,
+                            "y": 34
                           },
                           {
-                            "x": 99,
-                            "y": 0
+                            "x": 199,
+                            "y": 34
                           },
                           {
-                            "x": 99,
-                            "y": 47
+                            "x": 199,
+                            "y": 120
                           },
                           {
-                            "x": 0,
-                            "y": 47
+                            "x": 10,
+                            "y": 120
                           }
                         ]
                       ]
@@ -7663,7 +7802,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 31,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -13592,7 +13731,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Collisions",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13617,27 +13755,73 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "playerCharacter",
-                        "Echo",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Door",
-                        "",
-                        "",
-                        ""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Door",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "Echo",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "Spikes",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            ">",
+                            "800"
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -13648,7 +13832,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Start Menu\"",
+                        "CurrentSceneName()",
                         ""
                       ]
                     }
@@ -13946,7 +14130,31 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "CurrentSceneName()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "t"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
                 ""
               ]
             }
@@ -14138,6 +14346,16 @@
               "parameters": [
                 "Lvl2PlayX"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -14151,7 +14369,7 @@
               "parameters": [
                 "Lvl1PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -14179,7 +14397,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl1PlayX)"
+                "Lvl1PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14206,7 +14424,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl1PlayX)"
+                "Lvl1PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14259,6 +14477,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -14278,7 +14506,7 @@
                   "parameters": [
                     "Lvl1PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -14297,27 +14525,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl1PlayX)",
-                    "GlobalVariableFirstNumber(Lvl1PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl1PlayX), GlobalVariableFirstNumber(Lvl1PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl1PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl1PlayY",
+                    "Lvl1PlayX[CurrentTick]",
+                    "Lvl1PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl1PlayX[CurrentTick], Lvl1PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -14366,7 +14576,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl3PlayX"
+                "Lvl3PlayY"
               ]
             },
             {
@@ -14374,7 +14584,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl3PlayY"
+                "Lvl3PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -14389,7 +14609,7 @@
               "parameters": [
                 "Lvl2PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -14417,7 +14637,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl2PlayX)"
+                "Lvl2PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14444,7 +14664,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl2PlayX)"
+                "Lvl2PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14497,6 +14717,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -14516,7 +14746,7 @@
                   "parameters": [
                     "Lvl2PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -14535,27 +14765,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl2PlayX)",
-                    "GlobalVariableFirstNumber(Lvl2PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl2PlayX), GlobalVariableFirstNumber(Lvl2PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl2PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl2PlayY",
+                    "Lvl2PlayX[CurrentTick]",
+                    "Lvl2PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl2PlayX[CurrentTick], Lvl2PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -14604,7 +14816,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl4PlayX"
+                "Lvl4PlayY"
               ]
             },
             {
@@ -14612,7 +14824,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl4PlayY"
+                "Lvl4PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -14627,7 +14849,7 @@
               "parameters": [
                 "Lvl3PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -14655,7 +14877,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl3PlayX)"
+                "Lvl3PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14682,7 +14904,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl3PlayX)"
+                "Lvl3PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14735,6 +14957,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -14754,7 +14986,7 @@
                   "parameters": [
                     "Lvl3PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -14773,27 +15005,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl3PlayX)",
-                    "GlobalVariableFirstNumber(Lvl3PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl3PlayX), GlobalVariableFirstNumber(Lvl3PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl3PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl3PlayY",
+                    "Lvl3PlayX[CurrentTick]",
+                    "Lvl3PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl3PlayX[CurrentTick], Lvl3PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -14842,7 +15056,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl5PlayX"
+                "Lvl5PlayY"
               ]
             },
             {
@@ -14850,7 +15064,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl5PlayY"
+                "Lvl5PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -14865,7 +15089,7 @@
               "parameters": [
                 "Lvl4PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -14893,7 +15117,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl4PlayX)"
+                "Lvl4PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14920,7 +15144,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl4PlayX)"
+                "Lvl4PlayX[CurrentTick]"
               ]
             }
           ],
@@ -14973,6 +15197,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -14992,7 +15226,7 @@
                   "parameters": [
                     "Lvl4PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -15011,27 +15245,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl4PlayX)",
-                    "GlobalVariableFirstNumber(Lvl4PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl4PlayX), GlobalVariableFirstNumber(Lvl4PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl4PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl4PlayY",
+                    "Lvl4PlayX[CurrentTick]",
+                    "Lvl4PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl4PlayX[CurrentTick], Lvl4PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -15080,7 +15296,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl6PlayX"
+                "Lvl6PlayY"
               ]
             },
             {
@@ -15088,7 +15304,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl6PlayY"
+                "Lvl6PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -15103,7 +15329,7 @@
               "parameters": [
                 "Lvl5PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -15131,7 +15357,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl5PlayX)"
+                "Lvl5PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15158,7 +15384,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl5PlayX)"
+                "Lvl5PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15211,6 +15437,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -15230,7 +15466,7 @@
                   "parameters": [
                     "Lvl5PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -15249,27 +15485,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl5PlayX)",
-                    "GlobalVariableFirstNumber(Lvl5PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl5PlayX), GlobalVariableFirstNumber(Lvl5PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl5PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl5PlayY",
+                    "Lvl5PlayX[CurrentTick]",
+                    "Lvl5PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl5PlayX[CurrentTick], Lvl5PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -15318,7 +15536,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl7PlayX"
+                "Lvl7PlayY"
               ]
             },
             {
@@ -15326,7 +15544,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl7PlayY"
+                "Lvl7PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -15341,7 +15569,7 @@
               "parameters": [
                 "Lvl6PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -15369,7 +15597,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl6PlayX)"
+                "Lvl6PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15396,7 +15624,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl6PlayX)"
+                "Lvl6PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15449,6 +15677,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -15468,7 +15706,7 @@
                   "parameters": [
                     "Lvl6PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -15487,27 +15725,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl6PlayX)",
-                    "GlobalVariableFirstNumber(Lvl6PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl6PlayX), GlobalVariableFirstNumber(Lvl6PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl6PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl6PlayY",
+                    "Lvl6PlayX[CurrentTick]",
+                    "Lvl6PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl6PlayX[CurrentTick], Lvl6PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -15556,7 +15776,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl8PlayX"
+                "Lvl8PlayY"
               ]
             },
             {
@@ -15564,7 +15784,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl8PlayY"
+                "Lvl8PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -15579,7 +15809,7 @@
               "parameters": [
                 "Lvl7PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -15607,7 +15837,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl7PlayX)"
+                "Lvl7PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15634,7 +15864,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl7PlayX)"
+                "Lvl7PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15687,6 +15917,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -15706,7 +15946,7 @@
                   "parameters": [
                     "Lvl7PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -15725,27 +15965,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl7PlayX)",
-                    "GlobalVariableFirstNumber(Lvl7PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl7PlayX), GlobalVariableFirstNumber(Lvl7PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl7PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl7PlayY",
+                    "Lvl7PlayX[CurrentTick]",
+                    "Lvl7PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl7PlayX[CurrentTick], Lvl7PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -15794,7 +16016,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl9PlayX"
+                "Lvl9PlayY"
               ]
             },
             {
@@ -15802,7 +16024,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl9PlayY"
+                "Lvl9PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -15817,7 +16049,7 @@
               "parameters": [
                 "Lvl8PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -15845,7 +16077,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl8PlayX)"
+                "Lvl8PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15872,7 +16104,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl8PlayX)"
+                "Lvl8PlayX[CurrentTick]"
               ]
             }
           ],
@@ -15925,6 +16157,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -15944,7 +16186,7 @@
                   "parameters": [
                     "Lvl8PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -15963,27 +16205,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl8PlayX)",
-                    "GlobalVariableFirstNumber(Lvl8PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl8PlayX), GlobalVariableFirstNumber(Lvl8PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl8PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl8PlayY",
+                    "Lvl8PlayX[CurrentTick]",
+                    "Lvl8PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl8PlayX[CurrentTick], Lvl8PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -16032,7 +16256,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl10PlayX"
+                "Lvl10PlayY"
               ]
             },
             {
@@ -16040,7 +16264,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl10PlayY"
+                "Lvl10PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -16055,7 +16289,7 @@
               "parameters": [
                 "Lvl9PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -16083,7 +16317,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl9PlayX)"
+                "Lvl9PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16110,7 +16344,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl9PlayX)"
+                "Lvl9PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16163,6 +16397,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -16182,7 +16426,7 @@
                   "parameters": [
                     "Lvl9PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -16201,27 +16445,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl9PlayX)",
-                    "GlobalVariableFirstNumber(Lvl9PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl9PlayX), GlobalVariableFirstNumber(Lvl9PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl9PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl9PlayY",
+                    "Lvl9PlayX[CurrentTick]",
+                    "Lvl9PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl9PlayX[CurrentTick], Lvl9PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -16270,7 +16496,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl11PlayX"
+                "Lvl11PlayY"
               ]
             },
             {
@@ -16278,7 +16504,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl11PlayY"
+                "Lvl11PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -16293,7 +16529,7 @@
               "parameters": [
                 "Lvl10PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -16321,7 +16557,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl10PlayX)"
+                "Lvl10PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16348,7 +16584,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl10PlayX)"
+                "Lvl10PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16401,6 +16637,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -16420,7 +16666,7 @@
                   "parameters": [
                     "Lvl10PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -16439,27 +16685,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl10PlayX)",
-                    "GlobalVariableFirstNumber(Lvl10PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl10PlayX), GlobalVariableFirstNumber(Lvl10PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl10PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl10PlayY",
+                    "Lvl10PlayX[CurrentTick]",
+                    "Lvl10PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl10PlayX[CurrentTick], Lvl10PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -16508,7 +16736,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl12PlayX"
+                "Lvl12PlayY"
               ]
             },
             {
@@ -16516,7 +16744,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl12PlayY"
+                "Lvl12PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -16531,7 +16769,7 @@
               "parameters": [
                 "Lvl11PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -16559,7 +16797,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl11PlayX)"
+                "Lvl11PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16586,7 +16824,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl11PlayX)"
+                "Lvl11PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16639,6 +16877,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -16658,7 +16906,7 @@
                   "parameters": [
                     "Lvl11PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -16677,27 +16925,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl11PlayX)",
-                    "GlobalVariableFirstNumber(Lvl11PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl11PlayX), GlobalVariableFirstNumber(Lvl11PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl11PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl11PlayY",
+                    "Lvl11PlayX[CurrentTick]",
+                    "Lvl11PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl11PlayX[CurrentTick], Lvl11PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -16746,7 +16976,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl13PlayX"
+                "Lvl13PlayY"
               ]
             },
             {
@@ -16754,7 +16984,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl13PlayY"
+                "Lvl13PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -16769,7 +17009,7 @@
               "parameters": [
                 "Lvl12PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -16797,7 +17037,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl12PlayX)"
+                "Lvl12PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16824,7 +17064,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl12PlayX)"
+                "Lvl12PlayX[CurrentTick]"
               ]
             }
           ],
@@ -16877,6 +17117,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -16896,7 +17146,7 @@
                   "parameters": [
                     "Lvl12PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -16915,27 +17165,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl12PlayX)",
-                    "GlobalVariableFirstNumber(Lvl12PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl12PlayX), GlobalVariableFirstNumber(Lvl12PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl12PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl12PlayY",
+                    "Lvl12PlayX[CurrentTick]",
+                    "Lvl12PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl12PlayX[CurrentTick], Lvl12PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -16984,7 +17216,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl14PlayX"
+                "Lvl14PlayY"
               ]
             },
             {
@@ -16992,7 +17224,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl14PlayY"
+                "Lvl14PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -17007,7 +17249,7 @@
               "parameters": [
                 "Lvl13PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -17035,7 +17277,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl13PlayX)"
+                "Lvl13PlayX[CurrentTick]"
               ]
             }
           ],
@@ -17062,7 +17304,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl13PlayX)"
+                "Lvl13PlayX[CurrentTick]"
               ]
             }
           ],
@@ -17115,6 +17357,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -17134,7 +17386,7 @@
                   "parameters": [
                     "Lvl13PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -17153,27 +17405,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl13PlayX)",
-                    "GlobalVariableFirstNumber(Lvl13PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl13PlayX), GlobalVariableFirstNumber(Lvl13PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl13PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl13PlayY",
+                    "Lvl13PlayX[CurrentTick]",
+                    "Lvl13PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl13PlayX[CurrentTick], Lvl13PlayY[CurrentTick])",
                     "0"
                   ]
                 }
@@ -17222,7 +17456,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl15PlayX"
+                "Lvl15PlayY"
               ]
             },
             {
@@ -17230,7 +17464,17 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl15PlayY"
+                "Lvl15PlayX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "=",
+                "0"
               ]
             }
           ]
@@ -17245,7 +17489,7 @@
               "parameters": [
                 "Lvl14PlayX",
                 "<=",
-                "1"
+                "CurrentTick"
               ]
             }
           ],
@@ -17273,7 +17517,7 @@
               "parameters": [
                 "Echo",
                 "<",
-                "GlobalVariableFirstNumber(Lvl14PlayX)"
+                "Lvl14PlayX[CurrentTick]"
               ]
             }
           ],
@@ -17300,7 +17544,7 @@
               "parameters": [
                 "Echo",
                 ">",
-                "GlobalVariableFirstNumber(Lvl14PlayX)"
+                "Lvl14PlayX[CurrentTick]"
               ]
             }
           ],
@@ -17353,6 +17597,16 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CurrentTick",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -17372,7 +17626,7 @@
                   "parameters": [
                     "Lvl14PlayX",
                     ">",
-                    "1"
+                    "CurrentTick"
                   ]
                 }
               ],
@@ -17391,27 +17645,9 @@
                   },
                   "parameters": [
                     "Echo",
-                    "GlobalVariableFirstNumber(Lvl14PlayX)",
-                    "GlobalVariableFirstNumber(Lvl14PlayY)",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl14PlayX), GlobalVariableFirstNumber(Lvl14PlayY))",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl14PlayX",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableRemoveAt"
-                  },
-                  "parameters": [
-                    "Lvl14PlayY",
+                    "Lvl14PlayX[CurrentTick]",
+                    "Lvl14PlayY[CurrentTick]",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl14PlayX[CurrentTick], Lvl14PlayY[CurrentTick])",
                     "0"
                   ]
                 }
