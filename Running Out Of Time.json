@@ -7637,7 +7637,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 37,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -7645,7 +7645,7 @@
           "width": 776,
           "x": -2,
           "y": 172,
-          "zOrder": 26,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8195,8 +8195,8 @@
           "name": "MovingPlatform_X",
           "persistentUuid": "5ebfd1b7-c387-40f7-871c-80058ea5f694",
           "width": 185,
-          "x": 586,
-          "y": 661,
+          "x": 521,
+          "y": 660,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -8523,8 +8523,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": 1329,
-          "y": 68,
+          "x": 1338,
+          "y": 37,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -8585,39 +8585,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 454,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallL",
-          "persistentUuid": "e0369007-352b-4b77-90a7-6744e7e63d7a",
-          "width": 64,
-          "x": 208,
-          "y": 205,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "5b974cb2-e92a-46ec-a5dc-951a6ed56c2a",
-          "width": 752,
-          "x": 523,
-          "y": 370,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 32,
           "layer": "",
           "name": "Floor",
@@ -8640,8 +8607,8 @@
           "name": "Key",
           "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
           "width": 36,
-          "x": 1137,
-          "y": 252,
+          "x": 701,
+          "y": 58,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -8689,7 +8656,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "\"Level 9\"",
                 ""
               ]
             }
@@ -8954,8 +8921,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": 1329,
-          "y": 68,
+          "x": -101,
+          "y": 60,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -9016,39 +8983,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 454,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallL",
-          "persistentUuid": "e0369007-352b-4b77-90a7-6744e7e63d7a",
-          "width": 64,
-          "x": 208,
-          "y": 205,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "5b974cb2-e92a-46ec-a5dc-951a6ed56c2a",
-          "width": 752,
-          "x": 523,
-          "y": 370,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 32,
           "layer": "",
           "name": "Floor",
@@ -9071,8 +9005,8 @@
           "name": "Key",
           "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
           "width": 36,
-          "x": 1137,
-          "y": 252,
+          "x": 669,
+          "y": 56,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -9120,7 +9054,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "\"Level 10\"",
                 ""
               ]
             }
@@ -9138,7 +9072,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 8"
+          "target": "Echo Level 9"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -9385,8 +9319,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": 1329,
-          "y": 68,
+          "x": -233,
+          "y": 50,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -9447,39 +9381,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 454,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallL",
-          "persistentUuid": "e0369007-352b-4b77-90a7-6744e7e63d7a",
-          "width": 64,
-          "x": 208,
-          "y": 205,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "5b974cb2-e92a-46ec-a5dc-951a6ed56c2a",
-          "width": 752,
-          "x": 523,
-          "y": 370,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 32,
           "layer": "",
           "name": "Floor",
@@ -9500,10 +9401,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Key",
-          "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
+          "persistentUuid": "2999f304-e3b2-42e9-966d-5359148e29e4",
           "width": 36,
-          "x": 1137,
-          "y": 252,
+          "x": 695,
+          "y": 54,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -9551,7 +9452,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "\"Level 11\"",
                 ""
               ]
             }
@@ -9569,7 +9470,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 8"
+          "target": "Echo Level 10"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -9746,7 +9647,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.841642812537315,
+        "zoomFactor": 0.7370816317994071,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13775,7 +13676,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Collisions",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13805,6 +13705,19 @@
                       "parameters": [
                         "playerCharacter",
                         "Echo",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "Door",
                         "",
                         "",
                         ""
