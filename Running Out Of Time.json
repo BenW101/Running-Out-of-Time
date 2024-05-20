@@ -1711,6 +1711,15 @@
         "name": "assets\\Tiles\\Moving_platform2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Tiles_Moving_platform3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Tiles\\Moving_platform2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3791,7 +3800,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Tiles\\Moving_platform.png",
+                  "image": "assets\\Tiles\\Moving_platform2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3830,6 +3839,28 @@
           ]
         }
       ]
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "WallL",
+      "texture": "assets\\Tiles\\Wall_L.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 15,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -4416,7 +4447,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.4633111824513987,
+=======
+        "zoomFactor": 0.8700232859857308,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6675,8 +6710,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 57,
-          "y": 85,
+          "x": 54,
+          "y": 109,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -6855,11 +6890,112 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 452,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "522fa8ee-8131-41c9-b9be-862bcabd854d",
+          "width": 15,
+          "x": 402,
+          "y": 172,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 199,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "93d18b3a-292d-4653-81c2-10507b6bfdae",
+          "width": 361,
+          "x": 23,
+          "y": 239,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall_Jumping",
+          "persistentUuid": "e9470a49-c034-4383-b339-c76b8960a61f",
+          "width": 303,
+          "x": 56,
+          "y": 269,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Wall_Jumping",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You can jump off of walls to reach diffcult places",
+          "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 3
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You can jump off of walls to reach diffcult places",
+            "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "3;255;255"
+          }
+>>>>>>> Stashed changes
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Wall_Jumping"
+          }
+        ]
       },
       "events": [
         {
@@ -7070,6 +7206,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -7346,11 +7486,112 @@
               "value": 5
             }
           ]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 371,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "1d534337-f6b3-497b-9be4-2b4ea4e33207",
+          "width": 15,
+          "x": 485,
+          "y": 171,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 321,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "d2f4607c-15c7-43b6-b50e-b0217fdf1e12",
+          "width": 439,
+          "x": 23,
+          "y": 372,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_text",
+          "persistentUuid": "dec171f5-7f36-448c-9d43-6e2aff890ace",
+          "width": 324,
+          "x": 89,
+          "y": 386,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "Platform_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Certian platforms move either up or down or side to side allowing access to different places",
+          "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 246,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Certian platforms move either up or down or side to side allowing access to different places",
+            "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;246;255"
+          }
+>>>>>>> Stashed changes
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Platform_text"
+          }
+        ]
       },
       "events": [
         {
@@ -7568,6 +7809,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -7591,7 +7836,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.4335774304702383,
+=======
+        "zoomFactor": 0.4950840073748899,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7606,8 +7855,13 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
+<<<<<<< Updated upstream
           "x": 320,
           "y": 600,
+=======
+          "x": 829,
+          "y": 94,
+>>>>>>> Stashed changes
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -7623,8 +7877,13 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
+<<<<<<< Updated upstream
           "x": 276,
           "y": 428,
+=======
+          "x": 52,
+          "y": 265,
+>>>>>>> Stashed changes
           "zOrder": 5,
           "numberProperties": [
             {
@@ -7672,7 +7931,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 741,
+          "height": 816,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -7689,7 +7948,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 741,
+          "height": 804,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -7711,9 +7970,15 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
+<<<<<<< Updated upstream
           "width": 294,
           "x": 225,
           "y": 683,
+=======
+          "width": 925,
+          "x": 2,
+          "y": 151,
+>>>>>>> Stashed changes
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -7726,12 +7991,21 @@
           "height": 716,
           "keepRatio": true,
           "layer": "",
+<<<<<<< Updated upstream
           "name": "WallL",
           "persistentUuid": "e0369007-352b-4b77-90a7-6744e7e63d7a",
           "width": 64,
           "x": -47,
           "y": -1,
           "zOrder": 28,
+=======
+          "name": "Floor",
+          "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
+          "width": 753,
+          "x": 524,
+          "y": 688,
+          "zOrder": 29,
+>>>>>>> Stashed changes
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7740,6 +8014,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< Updated upstream
           "height": 713,
           "keepRatio": true,
           "layer": "",
@@ -8108,14 +8383,198 @@
           "x": 749,
           "y": 292,
           "zOrder": 33,
+=======
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Key",
+          "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
+          "width": 29,
+          "x": 30,
+          "y": 494,
+          "zOrder": 30,
+>>>>>>> Stashed changes
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "02ec21dd-a556-47a7-8691-a1ffa58359fb",
+          "width": 496,
+          "x": 2,
+          "y": 591,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "90e557c4-1562-4ca9-9f6d-82e3acdf2e6f",
+          "width": 539,
+          "x": 5,
+          "y": 333,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "dcef9237-4a35-4f1e-962b-e7a406b7fc3b",
+          "width": 88,
+          "x": 249,
+          "y": 543,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "09a4dcad-0277-4120-9bf6-af7cf9f5251e",
+          "width": 225,
+          "x": 551,
+          "y": 332,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 129,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "9a87e2ed-1950-4642-a32c-091d13f3490a",
+          "width": 435,
+          "x": 89,
+          "y": 411,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "c91bcf7b-ba07-48d1-bfce-a437ed67c345",
+          "width": 122,
+          "x": 1153,
+          "y": 364,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "spike_text",
+          "persistentUuid": "0fb157ff-ef65-48b1-8358-494f045734e1",
+          "width": 401,
+          "x": 108,
+          "y": 426,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "spike_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Spikes will force you to reset the level",
+          "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 246,
+            "g": 255,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "4;255;237",
+            "shadowDistance": 7,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Spikes will force you to reset the level",
+            "font": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;255;246"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "spike_text"
+          }
+        ]
       },
       "events": [
         {
@@ -8182,11 +8641,28 @@
           "target": "Restart"
         },
         {
+<<<<<<< Updated upstream
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
           },
           "target": "Moving Platform"
+=======
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "MovingPlatform",
+                "+",
+                "(sin(TimeFromStart() + MovingPlatform.Offset) * MovingPlatform.Amplitude)"
+              ]
+            }
+          ]
+>>>>>>> Stashed changes
         }
       ],
       "layers": [
@@ -8333,6 +8809,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -8371,8 +8851,13 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
+<<<<<<< Updated upstream
           "x": 979,
           "y": 276,
+=======
+          "x": 1110,
+          "y": 626,
+>>>>>>> Stashed changes
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -8388,8 +8873,13 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
+<<<<<<< Updated upstream
           "x": 1219,
           "y": 567,
+=======
+          "x": 55,
+          "y": 106,
+>>>>>>> Stashed changes
           "zOrder": 5,
           "numberProperties": [
             {
@@ -8409,8 +8899,8 @@
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
           "width": 1280,
-          "x": 0,
-          "y": 0,
+          "x": -1,
+          "y": -23,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -8475,6 +8965,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
+<<<<<<< Updated upstream
           "persistentUuid": "399aa5f9-df1f-47db-81b9-a45cd4b0a5c8",
           "width": 104,
           "x": 566,
@@ -8581,6 +9072,12 @@
           "width": 95,
           "x": 891,
           "y": 198,
+=======
+          "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
+          "width": 99,
+          "x": -2,
+          "y": 172,
+>>>>>>> Stashed changes
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -8594,6 +9091,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
+<<<<<<< Updated upstream
           "persistentUuid": "65675f56-8afe-47a0-9544-36e1d7aa433b",
           "width": 104,
           "x": 819,
@@ -8718,6 +9216,13 @@
           "x": 716,
           "y": 386,
           "zOrder": 29,
+=======
+          "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
+          "width": 214,
+          "x": 1065,
+          "y": 685,
+          "zOrder": 33,
+>>>>>>> Stashed changes
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8726,6 +9231,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< Updated upstream
           "height": 64,
           "keepRatio": true,
           "layer": "",
@@ -8734,6 +9240,16 @@
           "width": 176,
           "x": 1106,
           "y": 629,
+=======
+          "height": 504,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "02a73162-905d-4c37-990a-8b05e045edfa",
+          "width": 15,
+          "x": 1067,
+          "y": 189,
+>>>>>>> Stashed changes
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -8742,6 +9258,7 @@
         {
           "angle": 0,
           "customSize": true,
+<<<<<<< Updated upstream
           "depth": 1.0153061224489794,
           "height": 199,
           "keepRatio": true,
@@ -8856,6 +9373,37 @@
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
+=======
+          "depth": 1,
+          "height": 500,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallR",
+          "persistentUuid": "b0426db0-bfeb-43c4-94af-358ca2e066ba",
+          "width": 15,
+          "x": 1267,
+          "y": 188,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "a6f778c5-92f9-41c6-950f-05012f9e6bc3",
+          "width": 227,
+          "x": 129,
+          "y": 15,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+>>>>>>> Stashed changes
           "initialVariables": [
             {
               "folded": true,
@@ -8869,6 +9417,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< Updated upstream
           "height": 45,
           "keepRatio": true,
           "layer": "",
@@ -8877,6 +9426,40 @@
           "width": 198,
           "x": 70,
           "y": 208,
+=======
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "057cbbe4-2351-4ac2-bced-a83befbf7e55",
+          "width": 227,
+          "x": 453,
+          "y": 347,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "6fae9a90-9827-49f6-9350-1f391b929fcf",
+          "width": 227,
+          "x": 765,
+          "y": 82,
+>>>>>>> Stashed changes
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -8888,6 +9471,7 @@
               "value": 4
             }
           ]
+<<<<<<< Updated upstream
         },
         {
           "angle": 0,
@@ -8905,6 +9489,8 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+=======
+>>>>>>> Stashed changes
         }
       ],
       "objects": [],
@@ -8976,11 +9562,28 @@
           "target": "Restart"
         },
         {
+<<<<<<< Updated upstream
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
           },
           "target": "Moving Platform"
+=======
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "MovingPlatform",
+                "+",
+                "(sin(TimeFromStart() + MovingPlatform.Offset) * MovingPlatform.Amplitude)"
+              ]
+            }
+          ]
+>>>>>>> Stashed changes
         }
       ],
       "layers": [
@@ -9165,8 +9768,13 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
+<<<<<<< Updated upstream
           "x": 704,
           "y": 317,
+=======
+          "x": 1246,
+          "y": 362,
+>>>>>>> Stashed changes
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -9182,8 +9790,13 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
+<<<<<<< Updated upstream
           "x": 41,
           "y": 64,
+=======
+          "x": 1226,
+          "y": 618,
+>>>>>>> Stashed changes
           "zOrder": 5,
           "numberProperties": [
             {
@@ -9203,8 +9816,8 @@
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
           "width": 1280,
-          "x": 0,
-          "y": 0,
+          "x": -1,
+          "y": -1,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -9265,6 +9878,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< Updated upstream
           "height": 64,
           "keepRatio": true,
           "layer": "",
@@ -9324,6 +9938,15 @@
           "width": 64,
           "x": 1268,
           "y": 2,
+=======
+          "height": 32,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
+          "width": 180,
+          "x": 1097,
+          "y": 683,
+>>>>>>> Stashed changes
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -9333,6 +9956,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< Updated upstream
           "height": 30,
           "keepRatio": true,
           "layer": "",
@@ -9342,6 +9966,290 @@
           "x": -1,
           "y": 407,
           "zOrder": 30,
+=======
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "8519e23a-6102-4133-99b3-fb6e96bd38d7",
+          "width": 359,
+          "x": 921,
+          "y": 421,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "6717b9d6-5ec6-48cf-8472-5c9eedc386fc",
+          "width": 184,
+          "x": 1,
+          "y": 685,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform_X",
+          "persistentUuid": "c088c6de-f6c7-4576-a66c-0317cd3d633c",
+          "width": 252,
+          "x": 177,
+          "y": 663,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 5.6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "76336269-84f5-448f-bbd3-33601b7540cf",
+          "width": 104,
+          "x": 306,
+          "y": 690,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "d48daadc-14c4-476e-a643-9b176fde7b02",
+          "width": 0,
+          "x": 327,
+          "y": 627,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "7475d866-a186-4615-89db-253af1cc36bd",
+          "width": 0,
+          "x": 608,
+          "y": 629,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "8b8f3633-c635-4f45-86b9-7ad9762a29fe",
+          "width": 104,
+          "x": 583,
+          "y": 690,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "b7ed3fda-41f2-4eed-91c6-1140aece0595",
+          "width": 0,
+          "x": 860,
+          "y": 630,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "7512955b-aed5-4119-94f6-cece7b100364",
+          "width": 104,
+          "x": 838,
+          "y": 690,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Key",
+          "persistentUuid": "d5501f47-9acf-41ce-b92f-fc846fad0f4d",
+          "width": 46,
+          "x": 1,
+          "y": 598,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "bb3cb579-2b7e-4883-a4d2-0f12fb2c618a",
+          "width": 232,
+          "x": 683,
+          "y": 344,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "aec55220-342e-4fcc-9695-f6a85886ab4a",
+          "width": 200,
+          "x": 471,
+          "y": 263,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "e5c9a3fb-7b83-4c4b-a7da-200f988d07d8",
+          "width": 0,
+          "x": 773,
+          "y": 296,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "bd960430-85c3-49e2-9b1e-85f5ffbb84d1",
+          "width": 153,
+          "x": 6,
+          "y": 416,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "e8fe2812-b36e-429e-a934-8f1fb36ebb7f",
+          "width": 196,
+          "x": 237,
+          "y": 199,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "63846378-704a-4c3a-bc9d-eb0c7642b38b",
+          "width": 0,
+          "x": 540,
+          "y": 217,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "be385d54-d7a6-4d9f-a65d-379feced48eb",
+          "width": 0,
+          "x": 300,
+          "y": 146,
+          "zOrder": 51,
+>>>>>>> Stashed changes
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9514,11 +10422,28 @@
           "target": "Restart"
         },
         {
+<<<<<<< Updated upstream
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
           },
           "target": "Moving Platform"
+=======
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "MovingPlatform_X",
+                "+",
+                "(sin(TimeFromStart() + MovingPlatform_X.Offset) * MovingPlatform_X.Amplitude)"
+              ]
+            }
+          ]
+>>>>>>> Stashed changes
         }
       ],
       "layers": [
@@ -9688,7 +10613,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.367325754505884,
+=======
+        "zoomFactor": 0.5290357402156876,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9703,8 +10632,13 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
+<<<<<<< Updated upstream
           "x": 91,
           "y": 533,
+=======
+          "x": 122,
+          "y": 570,
+>>>>>>> Stashed changes
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
