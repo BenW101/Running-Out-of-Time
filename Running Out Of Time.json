@@ -2044,6 +2044,117 @@
         "name": "Wallslide30",
         "smoothed": false,
         "userAdded": true
+<<<<<<< Updated upstream
+=======
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Tiles_Wall_L.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Tiles\\Wall_L.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Updated Sprites_Tiles_pixil-frame-0 (5)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Updated Sprites\\Tiles\\pixil-frame-0 (5)2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Updated Sprites_Tiles_pixil-frame-0 (5)3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Updated Sprites\\Tiles\\pixil-frame-0 (5)3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Tiles_Spikes.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Tiles\\Spikes.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text7",
+        "smoothed": false,
+        "userAdded": false
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -4273,7 +4384,7 @@
           "folded": true,
           "name": "Offset",
           "type": "number",
-          "value": 0
+          "value": 1.5707
         },
         {
           "folded": true,
@@ -4365,9 +4476,9 @@
     },
     {
       "assetStoreId": "",
-      "height": 64,
+      "height": 40,
       "name": "Spikes",
-      "texture": "assets\\Tiles\\Spikes.png",
+      "texture": "assets\\Tiles\\Spikes.png2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -4563,6 +4674,28 @@
           ]
         }
       ]
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "WallL",
+      "texture": "assets\\Tiles\\Wall_L.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 15,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -7503,7 +7636,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.5653158055126322,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7698,11 +7831,132 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 452,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "522fa8ee-8131-41c9-b9be-862bcabd854d",
+          "width": 15,
+          "x": 402,
+          "y": 172,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "f22783f4-e3b7-4db8-809b-4675c96a8633",
+          "width": 378,
+          "x": 20,
+          "y": 278,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 273,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "70905c97-ac7c-4bc7-a5f4-e4ba59ed6235",
+          "width": 362,
+          "x": 31,
+          "y": 247,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 34
+                          },
+                          {
+                            "x": 187,
+                            "y": 34
+                          },
+                          {
+                            "x": 187,
+                            "y": 97
+                          },
+                          {
+                            "x": 1,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+>>>>>>> Stashed changes
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Text"
+          }
+        ]
       },
       "events": [
         {
@@ -7936,7 +8190,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.47893418845352564,
+=======
+        "zoomFactor": 0.6244537826600003,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8189,11 +8447,132 @@
               "value": 5
             }
           ]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 371,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "1d534337-f6b3-497b-9be4-2b4ea4e33207",
+          "width": 15,
+          "x": 485,
+          "y": 171,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "491520ec-bc70-4d72-b00e-8e35dcdc4b62",
+          "width": 444,
+          "x": 28,
+          "y": 286,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 309,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "af8d5b51-5853-47e7-954c-9d2a6d61a67f",
+          "width": 410,
+          "x": 39,
+          "y": 224,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 39
+                          },
+                          {
+                            "x": 189,
+                            "y": 39
+                          },
+                          {
+                            "x": 189,
+                            "y": 102
+                          },
+                          {
+                            "x": 1,
+                            "y": 102
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+>>>>>>> Stashed changes
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Text"
+          }
+        ]
       },
       "events": [
         {
@@ -8434,7 +8813,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.5468750000000014,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8466,9 +8845,9 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 1138,
-          "y": 561,
-          "zOrder": 5,
+          "x": 149,
+          "y": 280,
+          "zOrder": 38,
           "numberProperties": [
             {
               "name": "animation",
@@ -8554,7 +8933,7 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 776,
+          "width": 960,
           "x": -2,
           "y": 172,
           "zOrder": 26,
@@ -8603,9 +8982,9 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
-          "width": 753,
-          "x": 523,
-          "y": 627,
+          "width": 529,
+          "x": 750,
+          "y": 693,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -8621,17 +9000,229 @@
           "name": "Key",
           "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
           "width": 36,
+<<<<<<< Updated upstream
           "x": 1137,
           "y": 252,
+=======
+          "x": 46,
+          "y": 492,
+>>>>>>> Stashed changes
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "75eb93cc-7962-4c29-826f-9e29374c9930",
+          "width": 249,
+          "x": 1033,
+          "y": 363,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "5157d642-202a-42cb-a398-87f8e64e9312",
+          "width": 386,
+          "x": 892,
+          "y": 652,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "31a59d46-a61b-4d9b-aa9e-67729394a60c",
+          "width": 442,
+          "x": 0,
+          "y": 605,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "c14bab27-0f28-4297-ae42-687c493544d1",
+          "width": 64,
+          "x": 228,
+          "y": 565,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "03854a8b-f580-4959-a90d-abfcd42c539d",
+          "width": 445,
+          "x": 0,
+          "y": 336,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "3dd375c3-9eea-4d8e-a5b2-51307537a547",
+          "width": 0,
+          "x": 461,
+          "y": 382,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 135,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "f0ac0b02-60a4-4736-8d8c-af975995391d",
+          "width": 274,
+          "x": 990,
+          "y": 486,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 193,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "2699d8cb-4694-4fd5-908d-1c00c4d47d4b",
+          "width": 256,
+          "x": 1001,
+          "y": 459,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 43
+                          },
+                          {
+                            "x": 184,
+                            "y": 43
+                          },
+                          {
+                            "x": 184,
+                            "y": 97
+                          },
+                          {
+                            "x": 5,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Text"
+          }
+        ]
       },
       "events": [
         {
@@ -8696,6 +9287,13 @@
             "includeConfig": 0
           },
           "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
         }
       ],
       "layers": [
@@ -8865,17 +9463,377 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.546875,
+=======
+        "zoomFactor": 0.7619362677197614,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
+<<<<<<< Updated upstream
       "instances": [],
+=======
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 86,
+          "layer": "Player",
+          "name": "playerCharacter",
+          "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
+          "width": 48,
+          "x": 1196,
+          "y": 569,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.5957446808510636,
+          "height": 126.06382978723403,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Door",
+          "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
+          "width": 75,
+          "x": 84,
+          "y": 139,
+          "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 875,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 107.5,
+          "keepRatio": true,
+          "layer": "Player",
+          "name": "Echo",
+          "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
+          "width": 60,
+          "x": -101,
+          "y": 60,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 741,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "b594c595-4c8c-4d4a-bb2a-fe4864f94955",
+          "width": 10,
+          "x": 1286,
+          "y": -10,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 741,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "fd7f6afe-bf49-479e-bf4b-2570feb734df",
+          "width": 10,
+          "x": -13,
+          "y": -24,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
+          "width": 187,
+          "x": 1093,
+          "y": 626,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 379,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "WallL",
+          "persistentUuid": "9511f0e6-fcdc-4ea6-95b9-3d864d56f56e",
+          "width": 15,
+          "x": 1093,
+          "y": 278,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 658,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "WallR",
+          "persistentUuid": "b814a5ad-241b-4378-9494-f624384085d8",
+          "width": 15,
+          "x": 1264,
+          "y": 0,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "f5fb91e0-5dc3-4b17-9816-4f8776bb83c1",
+          "width": 118,
+          "x": 991,
+          "y": 278,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform",
+          "persistentUuid": "a27d7df0-9b3f-4847-9e51-e9b5de1a5974",
+          "width": 0,
+          "x": 716,
+          "y": 511,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.5
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform",
+          "persistentUuid": "613af895-c556-4509-b0b7-3d3c2417abca",
+          "width": 0,
+          "x": 427,
+          "y": 512,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.5
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 3.1415
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform",
+          "persistentUuid": "e13fca02-a0b4-4782-ad33-4e0ae3554295",
+          "width": 0,
+          "x": 154,
+          "y": 192,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.2
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "e9192740-83ed-46a0-97e4-fab80a3990e4",
+          "width": 145,
+          "x": -1,
+          "y": 192,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+>>>>>>> Stashed changes
       "objects": [],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
+<<<<<<< Updated upstream
       "events": [],
+=======
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "playerCharacter",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 10\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player Events"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Echo Level 9"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
+        }
+      ],
+>>>>>>> Stashed changes
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -8977,17 +9935,491 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.546875,
+=======
+        "zoomFactor": 0.604083874998888,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
+<<<<<<< Updated upstream
       "instances": [],
+=======
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 86,
+          "layer": "Player",
+          "name": "playerCharacter",
+          "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
+          "width": 48,
+          "x": 1205,
+          "y": 303,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.5957446808510636,
+          "height": 126.06382978723403,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Door",
+          "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
+          "width": 75,
+          "x": 1187,
+          "y": 615,
+          "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 860,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 107.5,
+          "keepRatio": true,
+          "layer": "Player",
+          "name": "Echo",
+          "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
+          "width": 60,
+          "x": 1310,
+          "y": 505,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 741,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "b594c595-4c8c-4d4a-bb2a-fe4864f94955",
+          "width": 10,
+          "x": 1286,
+          "y": -10,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 741,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "fd7f6afe-bf49-479e-bf4b-2570feb734df",
+          "width": 10,
+          "x": -13,
+          "y": -24,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
+          "width": 192,
+          "x": 1087,
+          "y": 362,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
+          "width": 193,
+          "x": 1087,
+          "y": 669,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Key",
+          "persistentUuid": "2999f304-e3b2-42e9-966d-5359148e29e4",
+          "width": 36,
+          "x": 39,
+          "y": 538,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "8e8468b5-2d8a-492d-ba4a-7eb488e89195",
+          "width": 319,
+          "x": 764,
+          "y": 306,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Spikes",
+          "persistentUuid": "55c58962-dea2-40e6-b696-42dc0883e56b",
+          "width": 0,
+          "x": 890,
+          "y": 266,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "a5a96fc6-72d7-4026-8b4e-7691c57714e1",
+          "width": 319,
+          "x": 440,
+          "y": 241,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Spikes",
+          "persistentUuid": "312dcb65-fdca-49cd-908a-0c0bb9fd8980",
+          "width": 0,
+          "x": 566,
+          "y": 201,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "34be7fc3-5f67-4f3e-8d81-ea1b574ac494",
+          "width": 319,
+          "x": 117,
+          "y": 185,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Spikes",
+          "persistentUuid": "251bfd05-ac47-4f87-8a9f-af554652ea23",
+          "width": 0,
+          "x": 243,
+          "y": 145,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "6327353b-d2f0-463e-ac09-8152efbcab6c",
+          "width": 193,
+          "x": 0,
+          "y": 650,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform_X",
+          "persistentUuid": "072ea136-9c60-4903-8753-e05be02083da",
+          "width": 0,
+          "x": 225,
+          "y": 662,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "b2a18ee1-c140-41e6-8d7f-e8b7fba33d45",
+          "width": 0,
+          "x": 936,
+          "y": 670,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "258a4c9f-3a4b-49cb-ab92-559f560287d1",
+          "width": 0,
+          "x": 639,
+          "y": 672,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "6a0efdf4-b976-475e-8149-98d43afb2ca1",
+          "width": 0,
+          "x": 356,
+          "y": 673,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "0c798d92-721d-4efe-b0da-d758b516b57a",
+          "width": 0,
+          "x": 936,
+          "y": 630,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "9594dbae-c903-42b1-a92b-ed9b868199a3",
+          "width": 0,
+          "x": 640,
+          "y": 633,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "a0285ea4-bdd7-461c-9088-9c48c7bc823f",
+          "width": 0,
+          "x": 356,
+          "y": 633,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+>>>>>>> Stashed changes
       "objects": [],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
+<<<<<<< Updated upstream
       "events": [],
+=======
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "playerCharacter",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 11\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player Events"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Echo Level 10"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
+        }
+      ],
+>>>>>>> Stashed changes
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -9104,8 +10536,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 295,
-          "y": 35,
+          "x": 327,
+          "y": 80,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -9154,8 +10586,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": -110,
-          "y": 88,
+          "x": 1311,
+          "y": 303,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -9333,14 +10765,19 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< Updated upstream
           "height": 64,
           "keepRatio": true,
           "layer": "",
+=======
+          "height": 40,
+          "layer": "Environment",
+>>>>>>> Stashed changes
           "name": "Spikes",
           "persistentUuid": "e10c3eac-ab4b-4664-9a1a-311f7c527c93",
           "width": 235,
-          "x": 390,
-          "y": 177,
+          "x": 389,
+          "y": 205,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -9948,14 +11385,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "keepRatio": true,
+          "height": 40,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "67bf1e98-44a3-4849-95e7-a7a9aa0afefc",
-          "width": 133,
-          "x": 1006,
-          "y": 601,
+          "width": 151,
+          "x": 994,
+          "y": 626,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -10354,13 +11790,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 11.548906250000002,
-          "height": 64,
+          "height": 40,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "b6d2d975-cd67-41ff-a13e-e0b5b78d2e81",
           "width": 128.0003776041667,
-          "x": 295,
-          "y": 565,
+          "x": 291,
+          "y": 587,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -11439,7 +12875,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.2722034630261617,
+=======
+        "zoomFactor": 0.3792488058122008,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11967,14 +13407,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1.0711297071129706,
-          "height": 68.55230125523012,
-          "keepRatio": true,
+          "height": 40,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "be0e1157-a65c-418b-a5ad-d9505d8825ce",
           "width": 256,
-          "x": 1521,
-          "y": 397,
+          "x": 1524,
+          "y": 422,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
