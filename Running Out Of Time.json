@@ -1304,7 +1304,7 @@
         "alwaysLoaded": false,
         "file": "assets/Font_Text/Tutorial_Text1.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Font_Text/Tutorial_Text1.png\",\"extension\":\".png\"}",
+        "metadata": "",
         "name": "assets\\Font_Text\\Tutorial_Text1.png",
         "smoothed": false,
         "userAdded": false
@@ -2044,6 +2044,8 @@
         "name": "Wallslide30",
         "smoothed": false,
         "userAdded": true
+<<<<<<< Updated upstream
+=======
       },
       {
         "alwaysLoaded": false,
@@ -2089,6 +2091,70 @@
         "name": "Updated Sprites\\Tiles\\pixil-frame-0 (5)3",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Tiles_Spikes.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Tiles\\Spikes.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text7",
+        "smoothed": false,
+        "userAdded": false
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -4318,7 +4384,7 @@
           "folded": true,
           "name": "Offset",
           "type": "number",
-          "value": 0
+          "value": 1.5707
         },
         {
           "folded": true,
@@ -4348,8 +4414,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Tiles\\Moving_platform.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Tiles\\Moving_Tile.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4362,26 +4428,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 67
-                      },
-                      {
-                        "x": 0,
-                        "y": 67
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -4392,10 +4439,10 @@
     {
       "assetStoreId": "",
       "height": 64,
-      "name": "WallR",
-      "texture": "assets\\Tiles\\Wall_R.png",
+      "name": "WallL",
+      "texture": "assets\\Tiles\\Wall_L.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 15,
+      "width": 64,
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -4411,8 +4458,27 @@
     {
       "assetStoreId": "",
       "height": 64,
+      "name": "WallR",
+      "texture": "assets\\Tiles\\Wall_R.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 40,
       "name": "Spikes",
-      "texture": "assets\\Tiles\\Spikes.png",
+      "texture": "assets\\Tiles\\Spikes.png2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -4608,6 +4674,8 @@
           ]
         }
       ]
+<<<<<<< Updated upstream
+=======
     },
     {
       "assetStoreId": "",
@@ -4620,13 +4688,14 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -4660,10 +4729,10 @@
         "objectName": "WallR"
       },
       {
-        "objectName": "Spikes"
+        "objectName": "WallL"
       },
       {
-        "objectName": "WallL"
+        "objectName": "Spikes"
       },
       {
         "objectName": "Key"
@@ -4851,12 +4920,6 @@
       "name": "Lvl15PlayY",
       "type": "array",
       "children": []
-    },
-    {
-      "folded": true,
-      "name": "CurrentTick",
-      "type": "number",
-      "value": 0
     }
   ],
   "layouts": [
@@ -4867,7 +4930,7 @@
       "name": "Start Menu",
       "r": 0,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 0,
       "uiSettings": {
@@ -4880,7 +4943,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827590595,
+        "zoomFactor": 0.5117784035210173,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5329,7 +5392,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943834,
+        "zoomFactor": 0.4633111824513987,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5344,8 +5407,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 91,
-          "y": 510,
+          "x": 93,
+          "y": 478,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -5387,8 +5450,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 922,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -5518,39 +5581,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 163,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Sign",
-          "persistentUuid": "406f10d8-4bde-42d4-a93b-a60c55a374a3",
-          "width": 242,
-          "x": 471,
-          "y": 66,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Text4",
-          "persistentUuid": "f88df038-9077-4843-861a-84e82682bc95",
-          "width": 0,
-          "x": 499,
-          "y": 81,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -5675,67 +5705,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Text4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\Font_Text\\Tutorial_Text4",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Font_Text\\Tutorial_Text4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 31
-                          },
-                          {
-                            "x": 185,
-                            "y": 31
-                          },
-                          {
-                            "x": 185,
-                            "y": 106
-                          },
-                          {
-                            "x": 3,
-                            "y": 106
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5743,9 +5712,6 @@
         "children": [
           {
             "objectName": "Text_1"
-          },
-          {
-            "objectName": "Text4"
           },
           {
             "objectName": "Text2"
@@ -5994,7 +5960,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 817,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "2048424c-ad3e-424d-b4fe-d5cdc1debc3f",
@@ -6110,15 +6076,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 188,
+          "depth": 0,
+          "height": 142.5,
           "keepRatio": true,
           "layer": "",
           "name": "Text1",
           "persistentUuid": "dfb4cb53-147a-4040-8344-d15cc72969d0",
-          "width": 249,
-          "x": 530,
-          "y": 35,
+          "width": 190,
+          "x": 558,
+          "y": 61,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -6181,7 +6147,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Updated Sprites\\Tiles\\pixil-frame-0 (5)3",
+                      "image": "assets\\Font_Text\\Tutorial_Text3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6197,20 +6163,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 10,
-                            "y": 34
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 199,
-                            "y": 34
+                            "x": 99,
+                            "y": 0
                           },
                           {
-                            "x": 199,
-                            "y": 120
+                            "x": 99,
+                            "y": 47
                           },
                           {
-                            "x": 10,
-                            "y": 120
+                            "x": 0,
+                            "y": 47
                           }
                         ]
                       ]
@@ -6520,8 +6486,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 833,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -6912,8 +6878,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 781,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -7320,8 +7286,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 781,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -7670,7 +7636,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.5653158055126322,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7717,8 +7683,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 831,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -7785,7 +7751,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 37,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -7793,7 +7759,7 @@
           "width": 776,
           "x": -2,
           "y": 172,
-          "zOrder": 33,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7802,7 +7768,24 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 31,
+          "height": 454,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "e0369007-352b-4b77-90a7-6744e7e63d7a",
+          "width": 64,
+          "x": 208,
+          "y": 205,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -7848,6 +7831,8 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< Updated upstream
+=======
         },
         {
           "angle": 0,
@@ -7865,11 +7850,113 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "f22783f4-e3b7-4db8-809b-4675c96a8633",
+          "width": 378,
+          "x": 20,
+          "y": 278,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 273,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "70905c97-ac7c-4bc7-a5f4-e4ba59ed6235",
+          "width": 362,
+          "x": 31,
+          "y": 247,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 34
+                          },
+                          {
+                            "x": 187,
+                            "y": 34
+                          },
+                          {
+                            "x": 187,
+                            "y": 97
+                          },
+                          {
+                            "x": 1,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+>>>>>>> Stashed changes
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Text"
+          }
+        ]
       },
       "events": [
         {
@@ -7926,7 +8013,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 6"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -8103,7 +8190,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104511,
+<<<<<<< Updated upstream
+        "zoomFactor": 0.47893418845352564,
+=======
+        "zoomFactor": 0.6244537826600003,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8150,8 +8241,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 823,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -8223,10 +8314,27 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 502,
+          "width": 396,
           "x": -2,
           "y": 172,
-          "zOrder": 33,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 454,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "e0369007-352b-4b77-90a7-6744e7e63d7a",
+          "width": 64,
+          "x": 342,
+          "y": 172,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8258,9 +8366,9 @@
           "name": "Floor",
           "persistentUuid": "ae56019d-fe2a-46e3-b8f1-e4f1db371cc5",
           "width": 145,
-          "x": 675,
-          "y": 277,
-          "zOrder": 35,
+          "x": 688,
+          "y": 273,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8292,9 +8400,9 @@
           "name": "Floor",
           "persistentUuid": "d770fc0a-908b-4c87-af6c-ac6df1232d5d",
           "width": 145,
-          "x": 676,
-          "y": 516,
-          "zOrder": 36,
+          "x": 690,
+          "y": 517,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8308,7 +8416,7 @@
           "layer": "",
           "name": "WallR",
           "persistentUuid": "6467e69c-da2d-484c-a614-41a99c330439",
-          "width": 18,
+          "width": 64,
           "x": 676,
           "y": 0,
           "zOrder": 30,
@@ -8326,8 +8434,8 @@
           "name": "MovingPlatform_X",
           "persistentUuid": "5ebfd1b7-c387-40f7-871c-80058ea5f694",
           "width": 185,
-          "x": 521,
-          "y": 660,
+          "x": 586,
+          "y": 661,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -8339,6 +8447,8 @@
               "value": 5
             }
           ]
+<<<<<<< Updated upstream
+=======
         },
         {
           "angle": 0,
@@ -8356,11 +8466,113 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 188,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "491520ec-bc70-4d72-b00e-8e35dcdc4b62",
+          "width": 444,
+          "x": 28,
+          "y": 286,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 309,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "af8d5b51-5853-47e7-954c-9d2a6d61a67f",
+          "width": 410,
+          "x": 39,
+          "y": 224,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 39
+                          },
+                          {
+                            "x": 189,
+                            "y": 39
+                          },
+                          {
+                            "x": 189,
+                            "y": 102
+                          },
+                          {
+                            "x": 1,
+                            "y": 102
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+>>>>>>> Stashed changes
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Text"
+          }
+        ]
       },
       "events": [
         {
@@ -8417,7 +8629,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 7"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -8601,7 +8813,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.5468750000000014,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8633,9 +8845,9 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 1138,
-          "y": 561,
-          "zOrder": 5,
+          "x": 149,
+          "y": 280,
+          "zOrder": 38,
           "numberProperties": [
             {
               "name": "animation",
@@ -8648,8 +8860,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 795,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -8671,8 +8883,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": 1338,
-          "y": 37,
+          "x": 1329,
+          "y": 68,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -8721,9 +8933,42 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 776,
+          "width": 960,
           "x": -2,
           "y": 172,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 454,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "e0369007-352b-4b77-90a7-6744e7e63d7a",
+          "width": 64,
+          "x": 208,
+          "y": 205,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "5b974cb2-e92a-46ec-a5dc-951a6ed56c2a",
+          "width": 752,
+          "x": 523,
+          "y": 370,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -8737,9 +8982,9 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
-          "width": 753,
-          "x": 523,
-          "y": 627,
+          "width": 529,
+          "x": 750,
+          "y": 693,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -8755,17 +9000,229 @@
           "name": "Key",
           "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
           "width": 36,
-          "x": 701,
-          "y": 58,
+<<<<<<< Updated upstream
+          "x": 1137,
+          "y": 252,
+=======
+          "x": 46,
+          "y": 492,
+>>>>>>> Stashed changes
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "75eb93cc-7962-4c29-826f-9e29374c9930",
+          "width": 249,
+          "x": 1033,
+          "y": 363,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "5157d642-202a-42cb-a398-87f8e64e9312",
+          "width": 386,
+          "x": 892,
+          "y": 652,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "31a59d46-a61b-4d9b-aa9e-67729394a60c",
+          "width": 442,
+          "x": 0,
+          "y": 605,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "c14bab27-0f28-4297-ae42-687c493544d1",
+          "width": 64,
+          "x": 228,
+          "y": 565,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "03854a8b-f580-4959-a90d-abfcd42c539d",
+          "width": 445,
+          "x": 0,
+          "y": 336,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "3dd375c3-9eea-4d8e-a5b2-51307537a547",
+          "width": 0,
+          "x": 461,
+          "y": 382,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 135,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "f0ac0b02-60a4-4736-8d8c-af975995391d",
+          "width": 274,
+          "x": 990,
+          "y": 486,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 193,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "2699d8cb-4694-4fd5-908d-1c00c4d47d4b",
+          "width": 256,
+          "x": 1001,
+          "y": 459,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 43
+                          },
+                          {
+                            "x": 184,
+                            "y": 43
+                          },
+                          {
+                            "x": 184,
+                            "y": 97
+                          },
+                          {
+                            "x": 5,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Text"
+          }
+        ]
       },
       "events": [
         {
@@ -8804,7 +9261,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 9\"",
+                "\"Start Menu\"",
                 ""
               ]
             }
@@ -8822,7 +9279,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 8"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -8830,6 +9287,13 @@
             "includeConfig": 0
           },
           "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
         }
       ],
       "layers": [
@@ -8986,8 +9450,8 @@
       "name": "Level 9",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
-      "title": "Running Out Of Time",
+      "stopSoundsOnStartup": true,
+      "title": "",
       "v": 209,
       "uiSettings": {
         "grid": false,
@@ -8999,11 +9463,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+<<<<<<< Updated upstream
+        "zoomFactor": 0.546875,
+=======
+        "zoomFactor": 0.7619362677197614,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
+<<<<<<< Updated upstream
+      "instances": [],
+=======
       "instances": [
         {
           "angle": 0,
@@ -9014,8 +9485,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 57,
-          "y": 85,
+          "x": 1196,
+          "y": 569,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -9031,13 +9502,13 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 1138,
-          "y": 561,
+          "x": 84,
+          "y": 139,
           "zOrder": 5,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -9114,15 +9585,48 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 33,
-          "keepRatio": true,
-          "layer": "",
+          "height": 32,
+          "layer": "Environment",
           "name": "Floor",
-          "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 776,
-          "x": -2,
-          "y": 172,
-          "zOrder": 26,
+          "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
+          "width": 187,
+          "x": 1093,
+          "y": 626,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 379,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "WallL",
+          "persistentUuid": "9511f0e6-fcdc-4ea6-95b9-3d864d56f56e",
+          "width": 15,
+          "x": 1093,
+          "y": 278,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 658,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "WallR",
+          "persistentUuid": "b814a5ad-241b-4378-9494-f624384085d8",
+          "width": 15,
+          "x": 1264,
+          "y": 0,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9132,39 +9636,131 @@
           "customSize": true,
           "depth": 1,
           "height": 32,
-          "layer": "",
+          "keepRatio": true,
+          "layer": "Environment",
           "name": "Floor",
-          "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
-          "width": 753,
-          "x": 523,
-          "y": 627,
-          "zOrder": 29,
+          "persistentUuid": "f5fb91e0-5dc3-4b17-9816-4f8776bb83c1",
+          "width": 118,
+          "x": 991,
+          "y": 278,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform",
+          "persistentUuid": "a27d7df0-9b3f-4847-9e51-e9b5de1a5974",
+          "width": 0,
+          "x": 716,
+          "y": 511,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.5
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform",
+          "persistentUuid": "613af895-c556-4509-b0b7-3d3c2417abca",
+          "width": 0,
+          "x": 427,
+          "y": 512,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.5
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 3.1415
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform",
+          "persistentUuid": "e13fca02-a0b4-4782-ad33-4e0ae3554295",
+          "width": 0,
+          "x": 154,
+          "y": 192,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.2
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 115,
+          "height": 32,
           "keepRatio": true,
-          "layer": "",
-          "name": "Key",
-          "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
-          "width": 36,
-          "x": 669,
-          "y": 56,
-          "zOrder": 30,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "e9192740-83ed-46a0-97e4-fab80a3990e4",
+          "width": 145,
+          "x": -1,
+          "y": 192,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
+>>>>>>> Stashed changes
       "objects": [],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
+<<<<<<< Updated upstream
+      "events": [],
+=======
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9228,8 +9824,16 @@
             "includeConfig": 0
           },
           "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
         }
       ],
+>>>>>>> Stashed changes
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -9257,72 +9861,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Environment",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Player",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -9384,8 +9922,8 @@
       "name": "Level 10",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
-      "title": "Running Out Of Time",
+      "stopSoundsOnStartup": true,
+      "title": "",
       "v": 209,
       "uiSettings": {
         "grid": false,
@@ -9397,11 +9935,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+<<<<<<< Updated upstream
+        "zoomFactor": 0.546875,
+=======
+        "zoomFactor": 0.604083874998888,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
+<<<<<<< Updated upstream
+      "instances": [],
+=======
       "instances": [
         {
           "angle": 0,
@@ -9412,8 +9957,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 57,
-          "y": 85,
+          "x": 1205,
+          "y": 303,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -9429,8 +9974,8 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 1138,
-          "y": 561,
+          "x": 1187,
+          "y": 615,
           "zOrder": 5,
           "numberProperties": [
             {
@@ -9467,8 +10012,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": -233,
-          "y": 50,
+          "x": 1310,
+          "y": 505,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -9514,12 +10059,12 @@
           "depth": 1,
           "height": 33,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Environment",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 776,
-          "x": -2,
-          "y": 172,
+          "width": 192,
+          "x": 1087,
+          "y": 362,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -9530,13 +10075,13 @@
           "customSize": true,
           "depth": 1,
           "height": 32,
-          "layer": "",
+          "layer": "Environment",
           "name": "Floor",
           "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
-          "width": 753,
-          "x": 523,
-          "y": 627,
-          "zOrder": 29,
+          "width": 193,
+          "x": 1087,
+          "y": 669,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9547,22 +10092,261 @@
           "depth": 1,
           "height": 115,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Environment",
           "name": "Key",
           "persistentUuid": "2999f304-e3b2-42e9-966d-5359148e29e4",
           "width": 36,
-          "x": 695,
-          "y": 54,
+          "x": 39,
+          "y": 538,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "8e8468b5-2d8a-492d-ba4a-7eb488e89195",
+          "width": 319,
+          "x": 764,
+          "y": 306,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Spikes",
+          "persistentUuid": "55c58962-dea2-40e6-b696-42dc0883e56b",
+          "width": 0,
+          "x": 890,
+          "y": 266,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "a5a96fc6-72d7-4026-8b4e-7691c57714e1",
+          "width": 319,
+          "x": 440,
+          "y": 241,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Spikes",
+          "persistentUuid": "312dcb65-fdca-49cd-908a-0c0bb9fd8980",
+          "width": 0,
+          "x": 566,
+          "y": 201,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "34be7fc3-5f67-4f3e-8d81-ea1b574ac494",
+          "width": 319,
+          "x": 117,
+          "y": 185,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Spikes",
+          "persistentUuid": "251bfd05-ac47-4f87-8a9f-af554652ea23",
+          "width": 0,
+          "x": 243,
+          "y": 145,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "Floor",
+          "persistentUuid": "6327353b-d2f0-463e-ac09-8152efbcab6c",
+          "width": 193,
+          "x": 0,
+          "y": 650,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Environment",
+          "name": "MovingPlatform_X",
+          "persistentUuid": "072ea136-9c60-4903-8753-e05be02083da",
+          "width": 0,
+          "x": 225,
+          "y": 662,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "b2a18ee1-c140-41e6-8d7f-e8b7fba33d45",
+          "width": 0,
+          "x": 936,
+          "y": 670,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "258a4c9f-3a4b-49cb-ab92-559f560287d1",
+          "width": 0,
+          "x": 639,
+          "y": 672,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "6a0efdf4-b976-475e-8149-98d43afb2ca1",
+          "width": 0,
+          "x": 356,
+          "y": 673,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "0c798d92-721d-4efe-b0da-d758b516b57a",
+          "width": 0,
+          "x": 936,
+          "y": 630,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "9594dbae-c903-42b1-a92b-ed9b868199a3",
+          "width": 0,
+          "x": 640,
+          "y": 633,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "a0285ea4-bdd7-461c-9088-9c48c7bc823f",
+          "width": 0,
+          "x": 356,
+          "y": 633,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
+>>>>>>> Stashed changes
       "objects": [],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
+<<<<<<< Updated upstream
+      "events": [],
+=======
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9626,8 +10410,16 @@
             "includeConfig": 0
           },
           "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
         }
       ],
+>>>>>>> Stashed changes
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -9655,72 +10447,6 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Environment",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Player",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -9795,7 +10521,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330019,
+        "zoomFactor": 0.367325754505884,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9810,8 +10536,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 295,
-          "y": 35,
+          "x": 327,
+          "y": 80,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -9828,7 +10554,7 @@
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
           "x": 436,
-          "y": 368,
+          "y": 356,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -9837,8 +10563,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 804,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -9860,8 +10586,8 @@
           "name": "Echo",
           "persistentUuid": "93a99c5b-d8b3-4c30-bbf5-c648591abce6",
           "width": 60,
-          "x": -110,
-          "y": 88,
+          "x": 1311,
+          "y": 303,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -9907,13 +10633,13 @@
           "depth": 1,
           "height": 33,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "10e6c3b2-32fa-4873-b4da-726ce94dff4e",
-          "width": 223,
-          "x": 66,
+          "width": 191,
+          "x": 82,
           "y": 628,
-          "zOrder": 46,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9922,14 +10648,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 515,
+          "height": 447,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "WallR",
           "persistentUuid": "7364b06c-1128-4b19-9ff1-5e82cafc36e5",
-          "width": 16,
+          "width": 64,
           "x": 274,
-          "y": 145,
+          "y": 181,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -9939,15 +10665,32 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+          "height": 576,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "bcaabe22-81e0-4946-93ff-020ce44089ac",
+          "width": 64,
+          "x": 18,
+          "y": 52,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "e908eab8-b4bd-483e-adcb-1a354bc844b3",
-          "width": 115,
-          "x": 274,
+          "width": 128,
+          "x": 270,
           "y": 144,
-          "zOrder": 53,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9956,15 +10699,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 34,
+          "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "20e78f09-d1ad-4f6e-a22e-07f91fb3cf8c",
-          "width": 391,
+          "width": 385,
           "x": 621,
           "y": 143,
-          "zOrder": 49,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9973,31 +10716,46 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 34,
+          "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "5fd5aad1-8c86-447e-a6bc-eda4bbe53dad",
-          "width": 262,
-          "x": 375,
+          "width": 232,
+          "x": 392,
           "y": 241,
-          "zOrder": 45,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 122,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "974af331-c157-4c6d-9cad-411bb86de182",
+          "width": 0,
+          "x": 326,
+          "y": 179,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "WallR",
           "persistentUuid": "a45d9d4a-25c6-4d65-b686-3fbf6e541e61",
-          "width": 15,
+          "width": 0,
           "x": 623,
-          "y": 145,
+          "y": 179,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -10007,14 +10765,19 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< Updated upstream
           "height": 64,
           "keepRatio": true,
+          "layer": "",
+=======
+          "height": 40,
           "layer": "Environment",
+>>>>>>> Stashed changes
           "name": "Spikes",
           "persistentUuid": "e10c3eac-ab4b-4664-9a1a-311f7c527c93",
           "width": 235,
-          "x": 390,
-          "y": 177,
+          "x": 389,
+          "y": 205,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -10024,14 +10787,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 793,
+          "height": 574,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "WallR",
           "persistentUuid": "50ea80c5-8f3d-4914-a11c-d276b4f8c48b",
           "width": 64,
           "x": 1145,
-          "y": -40,
+          "y": 143,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -10043,10 +10806,10 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "522bda02-3788-4558-b49b-db21f876144e",
-          "width": 267,
+          "width": 193,
           "x": 767,
           "y": 624,
           "zOrder": 40,
@@ -10058,15 +10821,49 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 33,
+          "height": 319,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "86fde417-2f4e-40c7-9733-2dfb216033e8",
+          "width": 64,
+          "x": 945,
+          "y": 177,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 140,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "a20c6946-2dae-4328-88b3-d1efd6c792dc",
+          "width": 64,
+          "x": 635,
+          "y": 456,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "bb4822b0-e1a1-4dbf-94b7-ba5552535e60",
-          "width": 304,
+          "width": 301,
           "x": 398,
           "y": 420,
-          "zOrder": 51,
+          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10075,100 +10872,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 34,
+          "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "57d6fe14-f090-474a-a117-e4a0191840cc",
-          "width": 132,
-          "x": 880,
-          "y": 424,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 314,
-          "keepRatio": true,
-          "layer": "Environment",
-          "name": "WallL",
-          "persistentUuid": "c34d7825-51e0-4723-93e6-2a8255bebc6b",
-          "width": 15,
-          "x": 996,
-          "y": 142,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 177,
-          "keepRatio": true,
-          "layer": "Environment",
-          "name": "WallL",
-          "persistentUuid": "2acf46ff-d5ea-4d7b-923e-cbb0c14eac64",
-          "width": 15,
-          "x": 685,
-          "y": 420,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "Environment",
-          "name": "WallL",
-          "persistentUuid": "57d35a2d-2096-4836-b2d0-5ab69a8981cd",
-          "width": 15,
-          "x": 374,
-          "y": 144,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 662,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallL",
-          "persistentUuid": "abd8641d-8067-4c85-9fa0-7583211c740e",
-          "width": 15,
-          "x": 67,
-          "y": -7,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 256,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallR",
-          "persistentUuid": "38eb9950-653f-4850-bd3c-5fd2bc2e9cab",
-          "width": 15,
-          "x": 880,
-          "y": 171,
-          "zOrder": 55,
+          "width": 130,
+          "x": 860,
+          "y": 456,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10215,7 +10927,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 12\"",
+                "\"Start Menu\"",
                 ""
               ]
             }
@@ -10233,7 +10945,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 11"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -10410,7 +11122,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330012,
+        "zoomFactor": 0.3925161175488245,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10443,7 +11155,7 @@
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
           "x": 94,
-          "y": 107,
+          "y": 95,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10452,8 +11164,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 793,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -10525,8 +11237,8 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "10e6c3b2-32fa-4873-b4da-726ce94dff4e",
-          "width": 314,
-          "x": -10,
+          "width": 222,
+          "x": 82,
           "y": 628,
           "zOrder": 27,
           "numberProperties": [],
@@ -10537,14 +11249,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 699,
+          "height": 517,
           "keepRatio": true,
           "layer": "",
           "name": "WallR",
           "persistentUuid": "50ea80c5-8f3d-4914-a11c-d276b4f8c48b",
           "width": 64,
           "x": 1145,
-          "y": -17,
+          "y": 143,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -10560,9 +11272,9 @@
           "name": "Floor",
           "persistentUuid": "6a7b9b96-946d-4bbb-bb3b-f01b94eafb1e",
           "width": 379,
-          "x": 617,
-          "y": 428,
-          "zOrder": 53,
+          "x": 616,
+          "y": 429,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10571,12 +11283,46 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 33,
+          "height": 195,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "e64df452-4a3a-4949-a76a-1acb44d1b7a1",
+          "width": 64,
+          "x": 935,
+          "y": 467,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 144,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "b6814f36-3412-4ff3-b727-a5f7da904283",
+          "width": 64,
+          "x": 932,
+          "y": 183,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
           "persistentUuid": "b3a77c76-435e-4503-90de-7fc25f2644a8",
-          "width": 263,
+          "width": 256,
           "x": 735,
           "y": 138,
           "zOrder": 44,
@@ -10588,7 +11334,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 33,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "Floor",
@@ -10630,7 +11376,7 @@
           "width": 179,
           "x": 980,
           "y": 666,
-          "zOrder": 52,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10639,14 +11385,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "keepRatio": true,
+          "height": 40,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "67bf1e98-44a3-4849-95e7-a7a9aa0afefc",
-          "width": 133,
-          "x": 1006,
-          "y": 601,
+          "width": 151,
+          "x": 994,
+          "y": 626,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -10665,40 +11410,6 @@
           "x": 415,
           "y": 455,
           "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 270,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallL",
-          "persistentUuid": "dcdbde35-8961-471c-be81-36ccd1def738",
-          "width": 15,
-          "x": 980,
-          "y": 429,
-          "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 156,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallL",
-          "persistentUuid": "8af7c16b-2849-45f7-a9e1-86bac2bc371a",
-          "width": 15,
-          "x": 983,
-          "y": 138,
-          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10745,7 +11456,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 13\"",
+                "\"Start Menu\"",
                 ""
               ]
             }
@@ -10763,7 +11474,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 12"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -10994,8 +11705,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 796,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -11079,13 +11790,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 11.548906250000002,
-          "height": 64,
+          "height": 40,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "b6d2d975-cd67-41ff-a13e-e0b5b78d2e81",
           "width": 128.0003776041667,
-          "x": 295,
-          "y": 565,
+          "x": 291,
+          "y": 587,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -11244,7 +11955,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 14\"",
+                "\"Start Menu\"",
                 ""
               ]
             }
@@ -11262,7 +11973,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 13"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -11446,7 +12157,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.366877572953183,
+        "zoomFactor": 0.2383863673758604,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11461,8 +12172,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 415,
-          "y": 312,
+          "x": 187,
+          "y": 555,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -11493,8 +12204,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 780,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -11563,13 +12274,13 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "821cb140-97c9-4df9-b186-50950dd7396d",
-          "width": 162,
+          "width": 144,
           "x": 175,
           "y": 647,
-          "zOrder": 50,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11578,14 +12289,31 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 271,
+          "height": 261,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "727d56e4-09ad-49e7-9966-990b2b6a3847",
+          "width": 66,
+          "x": 104,
+          "y": 383,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 207,
+          "keepRatio": true,
+          "layer": "",
           "name": "WallR",
           "persistentUuid": "fb342035-1dd0-4eb6-a0be-0606e10c1969",
           "width": 64,
           "x": 322,
-          "y": 408,
+          "y": 438,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -11597,7 +12325,7 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "ca0d756f-5701-488a-8350-c125528e72ff",
           "width": 451,
@@ -11614,7 +12342,7 @@
           "depth": 1,
           "height": 60,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "MovingPlatform",
           "persistentUuid": "a315ee93-00fa-4593-803a-df1607f4161f",
           "width": 219,
@@ -11638,7 +12366,7 @@
           "depth": 1,
           "height": 60,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "MovingPlatform",
           "persistentUuid": "2d412e09-28be-4eda-b8b7-fda777e17d87",
           "width": 219,
@@ -11662,7 +12390,7 @@
           "depth": 1,
           "height": 60,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "MovingPlatform",
           "persistentUuid": "1d66fa61-bee9-4a43-86a9-96aa0d7fd6ce",
           "width": 219,
@@ -11692,7 +12420,7 @@
           "depth": 1,
           "height": 60,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "MovingPlatform",
           "persistentUuid": "e037b2f8-1e74-4a98-a563-55cb31c18190",
           "width": 219,
@@ -11722,13 +12450,30 @@
           "depth": 1,
           "height": 439,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "WallR",
           "persistentUuid": "af29e3c8-0684-4de8-8c12-a2ce0a97ce54",
-          "width": 17,
-          "x": 1758,
-          "y": 203,
+          "width": 64,
+          "x": 1732,
+          "y": 249,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 427,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "160a0102-4e4e-4049-8669-9ca08be0e30d",
+          "width": 64,
+          "x": 1751,
+          "y": 265,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11739,13 +12484,13 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "aa64c4a0-7f8d-4358-b3f6-f5f0f5d7356c",
-          "width": 566,
+          "width": 539,
           "x": 1757,
           "y": 203,
-          "zOrder": 46,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11754,14 +12499,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 448,
+          "height": 444,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "WallR",
           "persistentUuid": "e3a87798-995a-423e-acbf-4713cd401b8f",
           "width": 64,
           "x": 2460,
-          "y": -3,
+          "y": 58,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -11773,13 +12518,13 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "b2edd744-03eb-4806-8140-896e06d50270",
-          "width": 557,
-          "x": 1917,
+          "width": 454,
+          "x": 1922,
           "y": 415,
-          "zOrder": 47,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11790,7 +12535,7 @@
           "depth": 1,
           "height": 98,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Key",
           "persistentUuid": "5e70a141-e3a0-4057-b344-783aad23bb5d",
           "width": 30,
@@ -11807,13 +12552,13 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "Environment",
+          "layer": "",
           "name": "Floor",
           "persistentUuid": "3b13bdf5-af1a-4fd1-bc84-f1e748d8f6a6",
-          "width": 639,
-          "x": 175,
+          "width": 642,
+          "x": 172,
           "y": 146,
-          "zOrder": 50,
+          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11822,40 +12567,70 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 239,
+          "height": 68,
           "keepRatio": true,
-          "layer": "Environment",
-          "name": "WallL",
-          "persistentUuid": "bb61dab4-fb7f-4f40-bd42-fccb535fbfc7",
-          "width": 15,
-          "x": 1918,
-          "y": 207,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 508,
-          "keepRatio": true,
-          "layer": "Environment",
-          "name": "WallL",
-          "persistentUuid": "4ddcf6bc-ab54-4d3f-9abb-85798e6e695a",
-          "width": 15,
-          "x": 175,
-          "y": 162,
-          "zOrder": 49,
+          "layer": "",
+          "name": "Note",
+          "persistentUuid": "dc559534-2a4b-4a5d-81c3-1a9f846f1d1e",
+          "width": 552,
+          "x": 7,
+          "y": -159,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Note",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "NEEDS CAMERA SCROLLING",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 64,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "NEEDS CAMERA SCROLLING",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 64,
+            "color": "0;0;0"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Note"
+          }
+        ]
       },
       "events": [
         {
@@ -11894,7 +12669,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 15\"",
+                "\"Start Menu\"",
                 ""
               ]
             }
@@ -11912,7 +12687,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 14"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -11927,13 +12702,6 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Large Levels"
         }
       ],
       "layers": [
@@ -12107,7 +12875,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36687757295318246,
+<<<<<<< Updated upstream
+        "zoomFactor": 0.2722034630261617,
+=======
+        "zoomFactor": 0.3792488058122008,
+>>>>>>> Stashed changes
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12154,8 +12926,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 829,
+          "depth": 0.9677419354838708,
+          "height": 720,
           "layer": "",
           "name": "Background",
           "persistentUuid": "b5777b8a-7887-40e6-a580-93b12a6340a5",
@@ -12272,6 +13044,23 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Note",
+          "persistentUuid": "dc559534-2a4b-4a5d-81c3-1a9f846f1d1e",
+          "width": 552,
+          "x": 7,
+          "y": -159,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "depth": 0,
           "height": 33.5,
           "keepRatio": true,
@@ -12332,7 +13121,24 @@
           "width": 409,
           "x": 148,
           "y": 349,
-          "zOrder": 57,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 339,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallL",
+          "persistentUuid": "2c8d1c8f-ae95-4fc4-a10b-4a885572ba55",
+          "width": 64,
+          "x": 83,
+          "y": 8,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12601,14 +13407,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1.0711297071129706,
-          "height": 68.55230125523012,
-          "keepRatio": true,
+          "height": 40,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "be0e1157-a65c-418b-a5ad-d9505d8825ce",
           "width": 256,
-          "x": 1521,
-          "y": 397,
+          "x": 1524,
+          "y": 422,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -12664,28 +13469,58 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 376,
-          "keepRatio": true,
-          "layer": "",
-          "name": "WallL",
-          "persistentUuid": "1c0ec52d-aea5-4593-b95f-82ba8cb2e795",
-          "width": 15,
-          "x": 147,
-          "y": 0,
-          "zOrder": 56,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Note",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "NEEDS CAMERA SCROLLING",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 64,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "NEEDS CAMERA SCROLLING",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 64,
+            "color": "0;0;0"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Note"
+          }
+        ]
       },
       "events": [
         {
@@ -12742,7 +13577,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Echo Level 15"
+          "target": "Echo Level 5"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -12757,13 +13592,6 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Large Levels"
         }
       ],
       "layers": [
@@ -13338,7 +14166,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Wall Jumping",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13473,7 +14300,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13731,6 +14557,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Collisions",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13755,73 +14582,14 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Or"
+                        "value": "CollisionNP"
                       },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "Door",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "playerCharacter",
-                                    "Echo",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "playerCharacter",
-                                    "Spikes",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PosY"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            ">",
-                            "800"
-                          ]
-                        }
+                      "parameters": [
+                        "playerCharacter",
+                        "Echo",
+                        "",
+                        "",
+                        ""
                       ]
                     }
                   ],
@@ -13832,7 +14600,7 @@
                       },
                       "parameters": [
                         "",
-                        "CurrentSceneName()",
+                        "\"Start Menu\"",
                         ""
                       ]
                     }
@@ -14130,31 +14898,7 @@
               },
               "parameters": [
                 "",
-                "CurrentSceneName()",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "t"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PopScene"
-              },
-              "parameters": [
+                "\"Start Menu\"",
                 ""
               ]
             }
@@ -14167,6 +14911,60 @@
       "lastChangeTimeStamp": 0,
       "name": "Base Echo",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Echo",
+                "<",
+                "GlobalVariableFirstNumber(Lvl1PlayX)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Echo",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Echo",
+                ">",
+                "GlobalVariableFirstNumber(Lvl1PlayX)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Echo",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -14346,16 +15144,6 @@
               "parameters": [
                 "Lvl2PlayX"
               ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
             }
           ]
         },
@@ -14369,7 +15157,7 @@
               "parameters": [
                 "Lvl1PlayX",
                 "<=",
-                "CurrentTick"
+                "1"
               ]
             }
           ],
@@ -14383,60 +15171,6 @@
                 "Opacity",
                 "-",
                 "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl1PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl1PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
               ]
             }
           ]
@@ -14477,16 +15211,6 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -14506,7 +15230,7 @@
                   "parameters": [
                     "Lvl1PlayX",
                     ">",
-                    "CurrentTick"
+                    "1"
                   ]
                 }
               ],
@@ -14525,9 +15249,27 @@
                   },
                   "parameters": [
                     "Echo",
-                    "Lvl1PlayX[CurrentTick]",
-                    "Lvl1PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl1PlayX[CurrentTick], Lvl1PlayY[CurrentTick])",
+                    "GlobalVariableFirstNumber(Lvl1PlayX)",
+                    "GlobalVariableFirstNumber(Lvl1PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl1PlayX), GlobalVariableFirstNumber(Lvl1PlayY))",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl1PlayX",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl1PlayY",
                     "0"
                   ]
                 }
@@ -14576,7 +15318,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl3PlayY"
+                "Lvl3PlayX"
               ]
             },
             {
@@ -14584,17 +15326,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl3PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
+                "Lvl3PlayY"
               ]
             }
           ]
@@ -14609,7 +15341,7 @@
               "parameters": [
                 "Lvl2PlayX",
                 "<=",
-                "CurrentTick"
+                "1"
               ]
             }
           ],
@@ -14623,60 +15355,6 @@
                 "Opacity",
                 "-",
                 "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl2PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl2PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
               ]
             }
           ]
@@ -14717,16 +15395,6 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -14746,7 +15414,7 @@
                   "parameters": [
                     "Lvl2PlayX",
                     ">",
-                    "CurrentTick"
+                    "1"
                   ]
                 }
               ],
@@ -14765,9 +15433,27 @@
                   },
                   "parameters": [
                     "Echo",
-                    "Lvl2PlayX[CurrentTick]",
-                    "Lvl2PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl2PlayX[CurrentTick], Lvl2PlayY[CurrentTick])",
+                    "GlobalVariableFirstNumber(Lvl2PlayX)",
+                    "GlobalVariableFirstNumber(Lvl2PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl2PlayX), GlobalVariableFirstNumber(Lvl2PlayY))",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl2PlayX",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl2PlayY",
                     "0"
                   ]
                 }
@@ -14816,7 +15502,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl4PlayY"
+                "Lvl4PlayX"
               ]
             },
             {
@@ -14824,17 +15510,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl4PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
+                "Lvl4PlayY"
               ]
             }
           ]
@@ -14849,7 +15525,7 @@
               "parameters": [
                 "Lvl3PlayX",
                 "<=",
-                "CurrentTick"
+                "1"
               ]
             }
           ],
@@ -14863,60 +15539,6 @@
                 "Opacity",
                 "-",
                 "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl3PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl3PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
               ]
             }
           ]
@@ -14957,16 +15579,6 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -14986,7 +15598,7 @@
                   "parameters": [
                     "Lvl3PlayX",
                     ">",
-                    "CurrentTick"
+                    "1"
                   ]
                 }
               ],
@@ -15005,9 +15617,27 @@
                   },
                   "parameters": [
                     "Echo",
-                    "Lvl3PlayX[CurrentTick]",
-                    "Lvl3PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl3PlayX[CurrentTick], Lvl3PlayY[CurrentTick])",
+                    "GlobalVariableFirstNumber(Lvl3PlayX)",
+                    "GlobalVariableFirstNumber(Lvl3PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl3PlayX), GlobalVariableFirstNumber(Lvl3PlayY))",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl3PlayX",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableRemoveAt"
+                  },
+                  "parameters": [
+                    "Lvl3PlayY",
                     "0"
                   ]
                 }
@@ -15056,7 +15686,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl5PlayY"
+                "Lvl5PlayX"
               ]
             },
             {
@@ -15064,17 +15694,7 @@
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
-                "Lvl5PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
+                "Lvl5PlayY"
               ]
             }
           ]
@@ -15089,7 +15709,7 @@
               "parameters": [
                 "Lvl4PlayX",
                 "<=",
-                "CurrentTick"
+                "1"
               ]
             }
           ],
@@ -15103,60 +15723,6 @@
                 "Opacity",
                 "-",
                 "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl4PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl4PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
               ]
             }
           ]
@@ -15197,16 +15763,6 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -15226,7 +15782,7 @@
                   "parameters": [
                     "Lvl4PlayX",
                     ">",
-                    "CurrentTick"
+                    "1"
                   ]
                 }
               ],
@@ -15245,2409 +15801,27 @@
                   },
                   "parameters": [
                     "Echo",
-                    "Lvl4PlayX[CurrentTick]",
-                    "Lvl4PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl4PlayX[CurrentTick], Lvl4PlayY[CurrentTick])",
+                    "GlobalVariableFirstNumber(Lvl4PlayX)",
+                    "GlobalVariableFirstNumber(Lvl4PlayY)",
+                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), GlobalVariableFirstNumber(Lvl4PlayX), GlobalVariableFirstNumber(Lvl4PlayY))",
                     "0"
                   ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 6",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl6PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl6PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl5PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl5PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl5PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl6PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl6PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl5PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
                 },
                 {
                   "type": {
-                    "value": "AddForceVersPos"
+                    "value": "GlobalVariableRemoveAt"
                   },
                   "parameters": [
-                    "Echo",
-                    "Lvl5PlayX[CurrentTick]",
-                    "Lvl5PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl5PlayX[CurrentTick], Lvl5PlayY[CurrentTick])",
+                    "Lvl4PlayX",
                     "0"
                   ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 7",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl7PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl7PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl6PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl6PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl6PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl7PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl7PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl6PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
                 },
                 {
                   "type": {
-                    "value": "AddForceVersPos"
+                    "value": "GlobalVariableRemoveAt"
                   },
                   "parameters": [
-                    "Echo",
-                    "Lvl6PlayX[CurrentTick]",
-                    "Lvl6PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl6PlayX[CurrentTick], Lvl6PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 8",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl8PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl8PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl7PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl7PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl7PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl8PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl8PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl7PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl7PlayX[CurrentTick]",
-                    "Lvl7PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl7PlayX[CurrentTick], Lvl7PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 9",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl9PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl9PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl8PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl8PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl8PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl9PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl9PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl8PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl8PlayX[CurrentTick]",
-                    "Lvl8PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl8PlayX[CurrentTick], Lvl8PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 10",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl10PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl10PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl9PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl9PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl9PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl10PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl10PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl9PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl9PlayX[CurrentTick]",
-                    "Lvl9PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl9PlayX[CurrentTick], Lvl9PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 11",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl11PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl11PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl10PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl10PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl10PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl11PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl11PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl10PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl10PlayX[CurrentTick]",
-                    "Lvl10PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl10PlayX[CurrentTick], Lvl10PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 12",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl12PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl12PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl11PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl11PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl11PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl12PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl12PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl11PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl11PlayX[CurrentTick]",
-                    "Lvl11PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl11PlayX[CurrentTick], Lvl11PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 13",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl13PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl13PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl12PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl12PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl12PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl13PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl13PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl12PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl12PlayX[CurrentTick]",
-                    "Lvl12PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl12PlayX[CurrentTick], Lvl12PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 14",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl14PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl14PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl13PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl13PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl13PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl14PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl14PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl13PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl13PlayX[CurrentTick]",
-                    "Lvl13PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl13PlayX[CurrentTick], Lvl13PlayY[CurrentTick])",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 1",
-      "lastChangeTimeStamp": 0,
-      "name": "Echo Level 15",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Base Echo"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"EchoTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl15PlayY"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableClearChildren"
-              },
-              "parameters": [
-                "Lvl15PlayX"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableChildCount"
-              },
-              "parameters": [
-                "Lvl14PlayX",
-                "<=",
-                "CurrentTick"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Echo",
-                "Opacity",
-                "-",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                "<",
-                "Lvl14PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Echo",
-                ">",
-                "Lvl14PlayX[CurrentTick]"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Echo",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\"",
-                ">=",
-                "0.01"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl15PlayX",
-                "playerCharacter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "Lvl15PlayY",
-                "playerCharacter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CurrentTick",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"EchoTimer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableChildCount"
-                  },
-                  "parameters": [
-                    "Lvl14PlayX",
-                    ">",
-                    "CurrentTick"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Echo"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Echo",
-                    "Lvl14PlayX[CurrentTick]",
-                    "Lvl14PlayY[CurrentTick]",
-                    "DistanceBetweenPositions(Echo.X(), Echo.Y(), Lvl14PlayX[CurrentTick], Lvl14PlayY[CurrentTick])",
+                    "Lvl4PlayY",
                     "0"
                   ]
                 }
@@ -17690,97 +15864,6 @@
                 "MovingPlatform_X",
                 "+",
                 "(sin(TimeFromStart() + MovingPlatform_X.Offset) * MovingPlatform_X.Amplitude)"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "Level 14",
-      "lastChangeTimeStamp": 0,
-      "name": "Large Levels",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "playerCharacter",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "playerCharacter",
-                "",
-                "\"Environment\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "playerCharacter",
-                "",
-                "\"Player\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "0",
-                "775",
-                "2559",
-                "0",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "0",
-                "775",
-                "2559",
-                "0",
-                "\"Environment\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "0",
-                "775",
-                "2559",
-                "0",
-                "\"Player\"",
-                ""
               ]
             }
           ]
