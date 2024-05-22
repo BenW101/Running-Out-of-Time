@@ -8863,8 +8863,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 57,
-          "y": 85,
+          "x": 64,
+          "y": 47,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -8969,8 +8969,8 @@
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
           "width": 776,
-          "x": -2,
-          "y": 172,
+          "x": 3,
+          "y": 104,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -9040,7 +9040,20 @@
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 3.14
+            }
+          ]
         },
         {
           "angle": 0,
@@ -9177,6 +9190,13 @@
             "includeConfig": 0
           },
           "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
         }
       ],
       "layers": [
@@ -9346,7 +9366,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845352564,
+        "zoomFactor": 0.6244537826600003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9361,8 +9381,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 57,
-          "y": 85,
+          "x": 1174,
+          "y": 557,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -9378,13 +9398,13 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 1138,
-          "y": 561,
+          "x": 74,
+          "y": 116,
           "zOrder": 5,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -9463,10 +9483,10 @@
           "depth": 1,
           "height": 33,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Environment",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 776,
+          "width": 138,
           "x": -2,
           "y": 172,
           "zOrder": 26,
@@ -9482,8 +9502,8 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
-          "width": 753,
-          "x": 523,
+          "width": 189,
+          "x": 1087,
           "y": 627,
           "zOrder": 29,
           "numberProperties": [],
@@ -9494,15 +9514,123 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 115,
+          "height": 339,
           "keepRatio": true,
           "layer": "",
-          "name": "Key",
-          "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
-          "width": 36,
-          "x": 669,
-          "y": 56,
+          "name": "WallL",
+          "persistentUuid": "b198c1e8-ab30-4acf-a625-ec4ea7e17a5c",
+          "width": 15,
+          "x": 1086,
+          "y": 320,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 661,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallR",
+          "persistentUuid": "ea75145b-6914-4968-a110-60ce01922bc4",
+          "width": 15,
+          "x": 1265,
+          "y": -1,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "fe36e48c-2fa0-4c0f-a5bc-1d49209f238c",
+          "width": 128,
+          "x": 974,
+          "y": 319,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "d685f430-f0ad-4b7a-afd1-07f9c2a65f53",
+          "width": 0,
+          "x": 684,
+          "y": 459,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.5
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "3d9a6eb2-d3a9-4935-9ecb-090cdbbf6f1f",
+          "width": 0,
+          "x": 417,
+          "y": 457,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Amplitude",
+              "type": "number",
+              "value": 1.5
+            },
+            {
+              "folded": true,
+              "name": "Offset",
+              "type": "number",
+              "value": 3.14
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatform",
+          "persistentUuid": "f89f7d3b-2f74-4041-9eae-bbd8652c5b04",
+          "width": 0,
+          "x": 141,
+          "y": 169,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9575,6 +9703,13 @@
             "includeConfig": 0
           },
           "target": "Restart"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Moving Platform"
         }
       ],
       "layers": [
