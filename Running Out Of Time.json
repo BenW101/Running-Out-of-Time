@@ -2134,6 +2134,132 @@
         "name": "assets\\Tiles\\Spikes.png2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Player_Endscreen.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Player\\Endscreen",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Player_Endscreen2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Player\\Endscreen2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Player_Endscreen3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Player\\Endscreen3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Player_Endscreen4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Player\\Endscreen4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/assets_Player_Endscreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\assets_Player_Endscreen.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/assets_Player_Endscreen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\assets_Player_Endscreen2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/assets_Player_Endscreen3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\assets_Player_Endscreen3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/assets_Player_Endscreen4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\assets_Player_Endscreen4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/Endscreen1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\Endscreen1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/Endscreen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\Endscreen2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/Endscreen3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\Endscreen3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player/Endscreen/Endscreen4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\Endscreen\\Endscreen4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiles/Moving_platform_x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tiles\\Moving_platform_x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Tiles_Spikes.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Tiles\\Spikes.png3",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3140,7 +3266,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide26",
+                  "image": "assets\\Player\\Wallslide\\Wallslide1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3176,7 +3302,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide27",
+                  "image": "assets\\Player\\Wallslide\\Wallslide2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3212,7 +3338,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide28",
+                  "image": "assets\\Player\\Wallslide\\Wallslide3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3248,7 +3374,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide29",
+                  "image": "assets\\Player\\Wallslide\\Wallslide4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3284,7 +3410,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Wallslide30",
+                  "image": "assets\\Player\\Wallslide\\Wallslide5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4457,7 +4583,7 @@
       "assetStoreId": "",
       "height": 40,
       "name": "Spikes",
-      "texture": "assets\\Tiles\\Spikes.png2",
+      "texture": "assets\\Tiles\\Spikes.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -4614,7 +4740,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Tiles\\Moving_platform.png",
+                  "image": "assets\\Tiles\\Moving_platform_x.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4658,7 +4784,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "WallL",
-      "texture": "assets\\Tiles\\Wall_L.png2",
+      "texture": "assets\\Tiles\\Wall_L.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 15,
       "variables": [],
@@ -5569,39 +5695,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 163,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Sign",
-          "persistentUuid": "406f10d8-4bde-42d4-a93b-a60c55a374a3",
-          "width": 242,
-          "x": 471,
-          "y": 66,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Text4",
-          "persistentUuid": "f88df038-9077-4843-861a-84e82682bc95",
-          "width": 0,
-          "x": 499,
-          "y": 81,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -6175,7 +6268,7 @@
           "name": "Text1",
           "persistentUuid": "dfb4cb53-147a-4040-8344-d15cc72969d0",
           "width": 249,
-          "x": 530,
+          "x": 540,
           "y": 35,
           "zOrder": 23,
           "numberProperties": [],
@@ -6239,7 +6332,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Updated Sprites\\Tiles\\pixil-frame-0 (5)3",
+                      "image": "assets\\Font_Text\\Tutorial_Text3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6255,20 +6348,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 10,
-                            "y": 34
+                            "x": 8,
+                            "y": 24
                           },
                           {
-                            "x": 199,
-                            "y": 34
+                            "x": 133,
+                            "y": 24
                           },
                           {
-                            "x": 199,
-                            "y": 120
+                            "x": 133,
+                            "y": 109
                           },
                           {
-                            "x": 10,
-                            "y": 120
+                            "x": 8,
+                            "y": 109
                           }
                         ]
                       ]
@@ -6681,11 +6774,111 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 154,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "95a08842-663d-46c9-ba34-2dce2766c3fb",
+          "width": 216,
+          "x": 93,
+          "y": 440,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 224.21052631578954,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tutorial_Text_5",
+          "persistentUuid": "ebf586c8-32b1-4030-b409-cbe80ed6723c",
+          "width": 300,
+          "x": 70,
+          "y": 422,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tutorial_Text_5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 35,
+                            "y": 35
+                          },
+                          {
+                            "x": 140,
+                            "y": 35
+                          },
+                          {
+                            "x": 140,
+                            "y": 86
+                          },
+                          {
+                            "x": 35,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Tutorial_Text_5"
+          }
+        ]
       },
       "events": [
         {
@@ -7979,8 +8172,8 @@
           "name": "Text",
           "persistentUuid": "a8994862-d7fe-4d31-bff5-1480c478859a",
           "width": 320,
-          "x": 52,
-          "y": 271,
+          "x": 60,
+          "y": 292,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -8009,7 +8202,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Font_Text\\Tutorial_Text5",
+                      "image": "assets\\Font_Text\\Tutorial_Text5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8025,20 +8218,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 39
+                            "x": 14,
+                            "y": 19
                           },
                           {
-                            "x": 187,
-                            "y": 39
+                            "x": 151,
+                            "y": 19
                           },
                           {
-                            "x": 187,
-                            "y": 102
+                            "x": 151,
+                            "y": 92
                           },
                           {
-                            "x": 1,
-                            "y": 102
+                            "x": 14,
+                            "y": 92
                           }
                         ]
                       ]
@@ -8608,7 +8801,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Font_Text\\Tutorial_Text6",
+                      "image": "assets\\Font_Text\\Tutorial_Text6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8624,20 +8817,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 39
+                            "x": 14,
+                            "y": 27
                           },
                           {
-                            "x": 189,
-                            "y": 39
+                            "x": 152,
+                            "y": 27
                           },
                           {
-                            "x": 189,
-                            "y": 102
+                            "x": 152,
+                            "y": 103
                           },
                           {
-                            "x": 1,
-                            "y": 102
+                            "x": 14,
+                            "y": 103
                           }
                         ]
                       ]
@@ -8903,7 +9096,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513987,
+        "zoomFactor": 0.5843784410740942,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12268,7 +12461,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6033468200939792,
+        "zoomFactor": 0.5283902530518392,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13335,30 +13528,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "MovingPlatform",
-          "persistentUuid": "a66db6c9-ce56-43f7-8850-9aa4958d459e",
-          "width": 128,
-          "x": 1583,
-          "y": 324,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "Offset",
-              "type": "number",
-              "value": 2.3562
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 33.5,
-          "keepRatio": true,
-          "layer": "",
-          "name": "MovingPlatform",
           "persistentUuid": "e5ef0356-7502-4d4d-ac16-a1a5d2c5b4b5",
           "width": 128,
           "x": 1584,
@@ -13746,10 +13915,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -13814,15 +13979,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 250,
+          "depth": 1,
+          "height": 365,
           "keepRatio": true,
           "layer": "",
           "name": "PlayerSign",
           "persistentUuid": "84c8aef9-c40a-48a1-81a7-027c3e6de611",
-          "width": 190.78947368421055,
+          "width": 191,
           "x": 137,
-          "y": 120,
+          "y": 94,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13955,16 +14120,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "assets\\Player\\Endscreen",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Player\\Fall\\Fall.png",
+                      "image": "assets\\Player\\Endscreen\\Endscreen1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13981,19 +14147,127 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 29,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 29,
-                            "y": 38
+                            "y": 60
                           },
                           {
                             "x": 0,
-                            "y": 38
+                            "y": 60
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\Endscreen\\Endscreen2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 29,
+                            "y": 2
+                          },
+                          {
+                            "x": 29,
+                            "y": 60
+                          },
+                          {
+                            "x": 0,
+                            "y": 60
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\Endscreen\\Endscreen3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 29,
+                            "y": 2
+                          },
+                          {
+                            "x": 29,
+                            "y": 60
+                          },
+                          {
+                            "x": 0,
+                            "y": 60
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\Endscreen\\Endscreen4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 29,
+                            "y": 2
+                          },
+                          {
+                            "x": 29,
+                            "y": 60
+                          },
+                          {
+                            "x": 0,
+                            "y": 60
                           }
                         ]
                       ]
@@ -15061,6 +15335,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Collisions",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15465,9 +15740,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PopScene"
+                    "value": "Scene"
                   },
                   "parameters": [
+                    "",
+                    "CurrentSceneName()",
                     ""
                   ]
                 }
