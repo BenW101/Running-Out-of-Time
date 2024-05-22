@@ -2107,6 +2107,24 @@
         "name": "assets\\Font_Text\\Tutorial_Text5",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Font_Text/Tutorial_Text6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Font_Text\\Tutorial_Text6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Font_Text_Tutorial_Text9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Font_Text\\Tutorial_Text6",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8475,11 +8493,112 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 191,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "6bbc1752-a611-46f4-87c3-b585490a2e39",
+          "width": 384,
+          "x": 62,
+          "y": 264,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 270,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "df1be493-497d-43d3-a7e0-2d8b638d13ed",
+          "width": 359,
+          "x": 72,
+          "y": 226,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Text",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Font_Text\\Tutorial_Text6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Font_Text\\Tutorial_Text6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 39
+                          },
+                          {
+                            "x": 189,
+                            "y": 39
+                          },
+                          {
+                            "x": 189,
+                            "y": 102
+                          },
+                          {
+                            "x": 1,
+                            "y": 102
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Text"
+          }
+        ]
       },
       "events": [
         {
