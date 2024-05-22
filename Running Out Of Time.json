@@ -5569,39 +5569,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 163,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Sign",
-          "persistentUuid": "406f10d8-4bde-42d4-a93b-a60c55a374a3",
-          "width": 242,
-          "x": 471,
-          "y": 66,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Text4",
-          "persistentUuid": "f88df038-9077-4843-861a-84e82682bc95",
-          "width": 0,
-          "x": 499,
-          "y": 81,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -15061,6 +15028,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Collisions",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
