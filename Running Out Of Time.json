@@ -4902,6 +4902,10 @@
       "name": "CurrentTick",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "GameTimer",
     }
   ],
   "layouts": [
@@ -5859,7 +5863,14 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -6337,7 +6348,14 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -6729,7 +6747,14 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -7137,7 +7162,14 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -7545,7 +7577,14 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -8079,7 +8118,14 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -8671,7 +8717,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -8679,6 +8725,13 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -9189,7 +9242,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -9197,6 +9250,13 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -9702,7 +9762,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -9710,6 +9770,13 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -10345,7 +10412,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -10353,6 +10420,13 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -10537,8 +10611,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 313,
-          "y": 87,
+          "x": 121,
+          "y": 570,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -10966,7 +11040,14 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -11495,7 +11576,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -11503,6 +11584,13 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -11994,7 +12082,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -12002,6 +12090,13 @@
             "includeConfig": 0
           },
           "target": "Moving Platform"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -12186,8 +12281,8 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 428,
-          "y": 345,
+          "x": 240,
+          "y": 589,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -12644,7 +12739,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -12659,6 +12754,13 @@
             "includeConfig": 0
           },
           "target": "Large Levels"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -13449,7 +13551,7 @@
               },
               "parameters": [
                 "",
-                "\"Start Menu\"",
+                "\"End Screen\"",
                 ""
               ]
             }
@@ -13474,7 +13576,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Restart"
+          "target": "Other Controls"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -13489,6 +13591,13 @@
             "includeConfig": 0
           },
           "target": "Large Levels"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GameTimer"
         }
       ],
       "layers": [
@@ -13584,6 +13693,500 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "End_32Screen",
+      "name": "End Screen",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5290357402156838,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Win_Text",
+          "persistentUuid": "e214f3ec-4424-48ca-a17e-84e559d1d4c3",
+          "width": 0,
+          "x": 497,
+          "y": 102,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Restart_Text",
+          "persistentUuid": "d3cc7fa9-9505-47ff-b3f2-b3476f366e5b",
+          "width": 0,
+          "x": 349,
+          "y": 576,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 250,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerSign",
+          "persistentUuid": "84c8aef9-c40a-48a1-81a7-027c3e6de611",
+          "width": 190.78947368421055,
+          "x": 137,
+          "y": 120,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Time_Text",
+          "persistentUuid": "5342004c-8326-467f-9e18-c5e8bb7d9c0a",
+          "width": 0,
+          "x": 410,
+          "y": 403,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Time_Display",
+          "persistentUuid": "359b1af9-32ce-4f4f-821d-efd56ab53b2f",
+          "width": 0,
+          "x": 618,
+          "y": 387,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Win_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": " YOU WIN\n\nGOOD JOB",
+          "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": " YOU WIN\n\nGOOD JOB",
+            "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Restart_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press R to return to main menu",
+          "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 36,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press R to return to main menu",
+            "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 36,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PlayerSign",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\Fall\\Fall.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 38
+                          },
+                          {
+                            "x": 0,
+                            "y": 38
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Time_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Time: ",
+          "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 38,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Time: ",
+            "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 38,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Time_Display",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Placeholder",
+          "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 64,
+          "color": {
+            "b": 255,
+            "g": 228,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Placeholder",
+            "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+            "textAlignment": "left",
+            "characterSize": 64,
+            "color": "0;228;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Win_Text"
+          },
+          {
+            "objectName": "PlayerSign"
+          },
+          {
+            "objectName": "Restart_Text"
+          },
+          {
+            "objectName": "Time_Text"
+          },
+          {
+            "objectName": "Time_Display"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "r"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start Menu\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "GameTimer",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Time_Display",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(GameTimer)) + \"s\""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -14833,31 +15436,87 @@
     {
       "associatedLayout": "Start Menu",
       "lastChangeTimeStamp": 0,
-      "name": "Restart",
+      "name": "Other Controls",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Restart",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "r"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "r"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DEV Skip to end",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "PopScene"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 15\"",
+                    ""
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ]
     },
@@ -18480,6 +19139,74 @@
                 "0",
                 "\"Player\"",
                 ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Level 1",
+      "lastChangeTimeStamp": 0,
+      "name": "GameTimer",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Seconds Timer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Seconds Timer\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "GameTimer",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Seconds Timer\""
               ]
             }
           ]
