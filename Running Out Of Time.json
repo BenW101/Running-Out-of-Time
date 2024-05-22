@@ -4906,6 +4906,8 @@
     {
       "folded": true,
       "name": "GameTimer",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -5239,7 +5241,7 @@
               "parameters": [
                 "",
                 "Audio\\Light-Years_V001_Looping.mp3",
-                "",
+                "yes",
                 "10",
                 "1"
               ]
