@@ -2260,6 +2260,24 @@
         "name": "assets\\Tiles\\Spikes.png3",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI/Timer BG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\UI\\Timer BG.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4798,6 +4816,108 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TimerUIText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "00 : 00",
+      "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": {
+        "b": 231,
+        "g": 255,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "00 : 00",
+        "font": "assets\\Font_Text\\MPLUS1p-Bold.ttf",
+        "textAlignment": "left",
+        "characterSize": 32,
+        "color": "0;255;231"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TimerUIBG",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\UI\\Timer BG.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4838,6 +4958,12 @@
       },
       {
         "objectName": "Key"
+      },
+      {
+        "objectName": "TimerUIText"
+      },
+      {
+        "objectName": "TimerUIBG"
       }
     ]
   },
@@ -5031,7 +5157,13 @@
     },
     {
       "folded": true,
-      "name": "GameTimer",
+      "name": "SecondsTimer",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "MinutesTimer",
       "type": "number",
       "value": 0
     }
@@ -5506,7 +5638,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943834,
+        "zoomFactor": 0.47893418845352564,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5692,6 +5824,40 @@
           "x": 1283,
           "y": 4,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "989c2bdb-eff5-4c63-bfb6-4f593d858242",
+          "width": 146,
+          "x": 26,
+          "y": 20,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "0e31659e-1c2c-4332-ba11-6ce2fa901cbf",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6078,6 +6244,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -6112,6 +6311,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -6305,6 +6508,39 @@
           "x": -15,
           "y": 1,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "4efb5886-075d-4dec-8af5-ee6733cfc651",
+          "width": 256.00000000000006,
+          "x": 0,
+          "y": 13,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "42b21fd0-161a-4285-9ee4-ebd2085abfd3",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6543,6 +6779,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -6808,6 +7077,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "2850951f-5e07-4575-9508-b042a8a1d29e",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "a16b9344-33b7-4c88-9422-f4591253a784",
+          "width": 0,
+          "x": 0,
+          "y": 20,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7062,6 +7364,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -7289,6 +7624,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "b2d03d12-f75f-4498-b2f0-9f1414acb28e",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "5172b93b-22cf-43e2-983b-16c9986a9a01",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -7457,6 +7825,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -7704,6 +8105,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "f2416d06-d22d-4146-a387-c6f7c196606b",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "3073e3ff-5dc8-49b2-b858-66d8194d1c48",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -7892,6 +8326,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -7981,8 +8448,8 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 1138,
-          "y": 572,
+          "x": 1142,
+          "y": 613,
           "zOrder": 5,
           "numberProperties": [
             {
@@ -8069,7 +8536,7 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 776,
+          "width": 951,
           "x": -2,
           "y": 172,
           "zOrder": 33,
@@ -8086,9 +8553,9 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "5b974cb2-e92a-46ec-a5dc-951a6ed56c2a",
-          "width": 752,
-          "x": 523,
-          "y": 370,
+          "width": 349,
+          "x": 600,
+          "y": 383,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -8103,9 +8570,9 @@
           "layer": "Environment",
           "name": "Floor",
           "persistentUuid": "ffe7a1c5-812a-42e1-be21-b0cdddd7ef9d",
-          "width": 753,
-          "x": 523,
-          "y": 627,
+          "width": 878,
+          "x": 402,
+          "y": 675,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -8121,8 +8588,8 @@
           "name": "Key",
           "persistentUuid": "d2cb9379-cf86-4b69-b984-cd86196a82bd",
           "width": 36,
-          "x": 1137,
-          "y": 252,
+          "x": 869,
+          "y": 267,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -8132,7 +8599,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 452,
+          "height": 503,
           "keepRatio": true,
           "layer": "",
           "name": "WallL",
@@ -8175,6 +8642,90 @@
           "x": 60,
           "y": 292,
           "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "0c457fb4-a92a-4877-bcca-fd91fd96b108",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "9f5b879b-0ebe-4e31-b4db-01d307446dc8",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 177,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallR",
+          "persistentUuid": "212af284-ddaf-49ac-afa5-2660e0602762",
+          "width": 15,
+          "x": 933,
+          "y": 206,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 119,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallR",
+          "persistentUuid": "3e129ce2-872f-4386-95c3-795ef26c6a0f",
+          "width": 15,
+          "x": 601,
+          "y": 415,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 675,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallR",
+          "persistentUuid": "d15bdfe2-1045-4491-8322-d5196aa07af1",
+          "width": 15,
+          "x": 1239,
+          "y": 0,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8433,6 +8984,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -8522,8 +9106,8 @@
           "name": "Door",
           "persistentUuid": "389a5467-8bd1-40f6-a3a5-9265ec33b939",
           "width": 75,
-          "x": 116,
-          "y": 115,
+          "x": 119,
+          "y": 193,
           "zOrder": 5,
           "numberProperties": [
             {
@@ -8612,7 +9196,7 @@
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
           "width": 502,
           "x": -2,
-          "y": 172,
+          "y": 254,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -8731,14 +9315,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 371,
+          "height": 311,
           "keepRatio": true,
           "layer": "",
           "name": "WallL",
           "persistentUuid": "1d534337-f6b3-497b-9be4-2b4ea4e33207",
           "width": 15,
-          "x": 485,
-          "y": 171,
+          "x": 487,
+          "y": 285,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -8754,8 +9338,8 @@
           "name": "Sign",
           "persistentUuid": "6bbc1752-a611-46f4-87c3-b585490a2e39",
           "width": 384,
-          "x": 62,
-          "y": 264,
+          "x": 31,
+          "y": 414,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -8771,9 +9355,42 @@
           "name": "Text",
           "persistentUuid": "df1be493-497d-43d3-a7e0-2d8b638d13ed",
           "width": 359,
-          "x": 72,
-          "y": 226,
+          "x": 43,
+          "y": 391,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "0f7be79c-81a4-48ed-9868-27222eedc4f3",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "70eb6b0a-ed4e-4edc-90e5-6444022e36d1",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9039,6 +9656,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -9111,7 +9761,7 @@
           "name": "playerCharacter",
           "persistentUuid": "89a8e77d-cd92-422d-a6ea-dae6c17a4432",
           "width": 48,
-          "x": 64,
+          "x": 287,
           "y": 47,
           "zOrder": 16,
           "numberProperties": [],
@@ -9369,6 +10019,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "49fb760b-2aa2-4e3e-82e2-9875c7f13fc8",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "a7443061-a02f-4bd4-b2cc-fbb4896a67a3",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -9544,6 +10227,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -9889,6 +10605,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "93791228-ebca-4410-ab73-2abe363ab149",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "5f2e5e21-9c79-47f0-bdfd-35771bb8d1f5",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -10064,6 +10813,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -10539,6 +11321,39 @@
               "value": 5.1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "fb2a5732-79e5-4b51-913b-00a2e87182a5",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "bf33ec13-4403-41d1-b516-621aa456cb0d",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -10714,6 +11529,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -11167,6 +12015,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "651aa691-1ac0-414f-a2c8-578ee0d68ec9",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "2a0d0b23-48f9-43cc-8431-afc40f161169",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -11335,6 +12216,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -11703,6 +12617,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "1c24d7cb-231a-4724-8b04-55de7c22da44",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "63ba64f5-90ee-4bd0-ae6e-3eb3ae68bc45",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -11878,6 +12825,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -12209,6 +13189,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "8fef42c1-cbe6-461c-ace1-497eea6bd432",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "e5fe42b5-480e-4c6c-8c4c-bdc75d12f8ad",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -12384,6 +13397,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -12866,6 +13912,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "249615c5-60b0-4dd0-bbac-c07457b360ba",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "2b2a04c6-4f18-42c3-b213-735609b63b3a",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -13068,6 +14147,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -13129,7 +14241,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35490989417292873,
+        "zoomFactor": 0.3321329719472177,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13679,6 +14791,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIBG",
+          "persistentUuid": "3b09d643-e325-4623-b7f4-dccefe50a6cf",
+          "width": 256,
+          "x": 0,
+          "y": 13,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimerUIText",
+          "persistentUuid": "76034df6-5d79-4416-9ace-aee57fe5acdc",
+          "width": 0,
+          "x": 26,
+          "y": 20,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -13861,6 +15006,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -14411,7 +15589,17 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "GameTimer",
+                "SecondsTimer",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "MinutesTimer",
                 "=",
                 "0"
               ]
@@ -14430,7 +15618,155 @@
                 "Time_Display",
                 "Text",
                 "=",
-                "ToString(GlobalVariable(GameTimer)) + \"s\""
+                "ToString(GlobalVariable(SecondsTimer)) + \"s\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "MinutesTimer",
+                ">=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SecondsTimer",
+                    "<",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Time_Display",
+                    "Text",
+                    "=",
+                    "ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SecondsTimer",
+                    ">=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Time_Display",
+                    "Text",
+                    "=",
+                    "ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "MinutesTimer",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SecondsTimer",
+                    "<",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Time_Display",
+                    "Text",
+                    "=",
+                    "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SecondsTimer",
+                    ">=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Time_Display",
+                    "Text",
+                    "=",
+                    "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                  ]
+                }
               ]
             }
           ]
@@ -19451,6 +20787,156 @@
                 "\"Seconds Timer\""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MinutesTimer",
+                    ">=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        "<",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        ">=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MinutesTimer",
+                    "<",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        "<",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        ">=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -19474,7 +20960,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "GameTimer",
+                "SecondsTimer",
                 "+",
                 "1"
               ]
@@ -19486,6 +20972,354 @@
               "parameters": [
                 "",
                 "\"Seconds Timer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MinutesTimer",
+                    ">=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        "<",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        ">=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MinutesTimer",
+                    "<",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        "<",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        ">=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "SecondsTimer",
+                ">=",
+                "60"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "MinutesTimer",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "SecondsTimer",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TimerUIText",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MinutesTimer",
+                    "<",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        "<",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        ">=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "\"0\" + ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MinutesTimer",
+                    ">=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        "<",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(MinutesTimer)) + \" : 0\" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SecondsTimer",
+                        ">=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TimerUIText",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(MinutesTimer)) + \" : \" + ToString(GlobalVariable(SecondsTimer))"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
