@@ -10398,7 +10398,7 @@
           "persistentUuid": "1e1233e8-c51b-4275-8d51-0bac6d392698",
           "width": 1295,
           "x": -14,
-          "y": -31,
+          "y": -217,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -10760,7 +10760,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101673771,
+        "zoomFactor": 1.2121641972173687,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10875,12 +10875,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 31,
           "keepRatio": true,
           "layer": "Environment",
           "name": "Floor",
           "persistentUuid": "4bc81f3a-e73c-4d0c-8107-7cd06ea3a7da",
-          "width": 502,
+          "width": 501,
           "x": -2,
           "y": 254,
           "zOrder": 33,
@@ -10960,13 +10960,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 547,
+          "height": 548,
           "keepRatio": true,
           "layer": "",
           "name": "WallR",
           "persistentUuid": "6467e69c-da2d-484c-a614-41a99c330439",
-          "width": 18,
-          "x": 676,
+          "width": 15,
+          "x": 665,
           "y": 0,
           "zOrder": 30,
           "numberProperties": [],
@@ -11001,14 +11001,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 311,
+          "height": 358,
           "keepRatio": true,
           "layer": "",
           "name": "WallL",
           "persistentUuid": "1d534337-f6b3-497b-9be4-2b4ea4e33207",
           "width": 15,
-          "x": 487,
-          "y": 285,
+          "x": 499,
+          "y": 254,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -17676,555 +17676,559 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Animations",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "events": [],
+              "events": [
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "FacingRight",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CurrentJumpSpeed"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                ">",
+                                "playerCharacter.PlatformerObject::CurrentFallSpeed()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"Jump\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CurrentFallSpeed"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                ">",
+                                "playerCharacter.PlatformerObject::JumpSpeed()"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "AdvancedJump::WallJump::IsAgaintWall"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "WallJump",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "Animation",
+                                    "=",
+                                    "\"Fall\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AdvancedJump::WallJump::IsAgaintWall"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "WallJump",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "Animation",
+                                    "=",
+                                    "\"Wallslide\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "\"Right\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "Animation",
+                            "=",
+                            "\"Idle\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                "\"Left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                "\"Right\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "Animation",
+                            "=",
+                            "\"Run\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "FacingRight",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CurrentJumpSpeed"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                ">",
+                                "playerCharacter.PlatformerObject::CurrentFallSpeed()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "Animation",
+                                "=",
+                                "\"JumpL\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CurrentFallSpeed"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                ">",
+                                "playerCharacter.PlatformerObject::JumpSpeed()"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "AdvancedJump::WallJump::IsAgaintWall"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "WallJump",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "Animation",
+                                    "=",
+                                    "\"FallL\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AdvancedJump::WallJump::IsAgaintWall"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "WallJump",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "playerCharacter",
+                                    "Animation",
+                                    "=",
+                                    "\"WallslideL\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject",
+                            "\"Right\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "Animation",
+                            "=",
+                            "\"IdleL\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                "\"Left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                              },
+                              "parameters": [
+                                "playerCharacter",
+                                "PlatformerObject",
+                                "\"Right\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "playerCharacter",
+                            "Animation",
+                            "=",
+                            "\"RunL\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "FacingRight",
+                        "="
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "PlatformerObject",
+                        "\"Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "playerCharacter",
+                        "FacingRight",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "playerCharacter",
-                    "FacingRight",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::CurrentJumpSpeed"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            ">",
-                            "playerCharacter.PlatformerObject::CurrentFallSpeed()"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "Animation",
-                            "=",
-                            "\"Jump\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::CurrentFallSpeed"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            ">",
-                            "playerCharacter.PlatformerObject::JumpSpeed()"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "AdvancedJump::WallJump::IsAgaintWall"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "WallJump",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "Animation",
-                                "=",
-                                "\"Fall\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AdvancedJump::WallJump::IsAgaintWall"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "WallJump",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "Animation",
-                                "=",
-                                "\"Wallslide\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Left\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Right\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Animation",
-                        "=",
-                        "\"Idle\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            "\"Left\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            "\"Right\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Animation",
-                        "=",
-                        "\"Run\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "playerCharacter",
-                    "FacingRight",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::CurrentJumpSpeed"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            ">",
-                            "playerCharacter.PlatformerObject::CurrentFallSpeed()"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "Animation",
-                            "=",
-                            "\"JumpL\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::CurrentFallSpeed"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            ">",
-                            "playerCharacter.PlatformerObject::JumpSpeed()"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "AdvancedJump::WallJump::IsAgaintWall"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "WallJump",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "Animation",
-                                "=",
-                                "\"FallL\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AdvancedJump::WallJump::IsAgaintWall"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "WallJump",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "playerCharacter",
-                                "Animation",
-                                "=",
-                                "\"WallslideL\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Left\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject",
-                        "\"Right\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Animation",
-                        "=",
-                        "\"IdleL\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            "\"Left\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                          },
-                          "parameters": [
-                            "playerCharacter",
-                            "PlatformerObject",
-                            "\"Right\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "playerCharacter",
-                        "Animation",
-                        "=",
-                        "\"RunL\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                  },
-                  "parameters": [
-                    "playerCharacter",
-                    "PlatformerObject",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "playerCharacter",
-                    "FacingRight",
-                    "="
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                  },
-                  "parameters": [
-                    "playerCharacter",
-                    "PlatformerObject",
-                    "\"Right\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "playerCharacter",
-                    "FacingRight",
-                    "True"
-                  ]
-                }
-              ]
             },
             {
               "colorB": 228,
@@ -18600,6 +18604,58 @@
                 "Animation",
                 "=",
                 "\"Open\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "playerCharacter",
+                "PlatformerObject",
+                "\"Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "playerCharacter",
+                "PlatformerObject",
+                "\"Right\""
               ]
             }
           ]
